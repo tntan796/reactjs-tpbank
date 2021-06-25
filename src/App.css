@@ -363,7 +363,7 @@ input {
 .page-header .page-title {
     margin-bottom: 0px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: capitalize;
     line-height: 28px;
     text-transform: capitalize;
@@ -430,6 +430,28 @@ input {
 }
 .page-header .user-info .user-menu > a > i {
     margin-right: 5px;
+}
+
+.page-header .breadcrumb {
+    margin-bottom: 8px;
+    padding: 0px;
+    background: transparent;
+}
+
+.breadcrumb a {
+    font-size: 13px;
+    color: #42236a;
+}
+
+.page-header .breadcrumb > a {
+    display: inline-block;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.page-header .breadcrumb > a i {
+    font-size: 13px;
+    color: #FF9800;
+    padding: 0 10px;
 }
 
 /*_____Page body _____*/

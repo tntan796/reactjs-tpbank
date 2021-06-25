@@ -9,11 +9,18 @@ function HeaderComponent() {
             </div>
             <div className="left-text">
                 <div>
-                    <h1 className="page-title">Trang chủ</h1>
+                    <div className="breadcrumb">
+                        <a className="cursor-pointer" href="/index.html"> Trang chủ
+                            <i className="fas fa-chevron-right"></i>
+                        </a>
+                        <a className="cursor-pointer">Chuyển khoản
+                        </a>
+                    </div>
+                    <h1 className="page-title">Chuyển Khoản</h1>
                 </div>
             </div>
             <div className="user-info" id="globalUserInfo">
-                <i className="fas fa-bell" id="notification-btn" tabIndex={0} onclick="window.location.replace('/notification.html');">
+                <i className="fas fa-bell" id="notification-btn" tabIndex={0}>
                     <div className="notification-active-icon" />
                 </i>
                 <div id="user-btn">
