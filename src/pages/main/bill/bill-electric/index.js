@@ -1,4 +1,7 @@
 import './index.css';
+import { Link } from "react-router-dom";
+
+
 function BillElectricPage() {
     return (
         <div className="content-wrap">
@@ -15,7 +18,7 @@ function BillElectricPage() {
                     <div className="list-provider">
                         <ul className="list-card-link">
                             <li className="card-link-wrapper">
-                                <a className="card-link card-provider" href="bill-electric-detail.html">
+                                <Link className="card-link card-provider" to="/bill/bill-electric-detail">
                                     <div className="content-card">
                                         <div className="container-icon-provider">
                                             <img alt="" className="icon-logo" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/6d549869-dca9-403d-927c-efe38216c51f?_=1554954768300" />
@@ -25,10 +28,10 @@ function BillElectricPage() {
                                             <span className="icon-arrow-right" style={{backgroundImage: "url('/assets/images/icons/bill/chevron-right-solid.1b15a896fc37da4a8955.svg')"}}/>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li className="card-link-wrapper">
-                                <a className="card-link card-provider" href="bill-electric-detail.html">
+                                <Link className="card-link card-provider" to="/bill/bill-electric-detail">
                                     <div className="content-card">
                                         <div className="container-icon-provider">
                                             <img alt="" className="icon-logo" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/6d549869-dca9-403d-927c-efe38216c51f?_=1554954768300" />
@@ -36,10 +39,10 @@ function BillElectricPage() {
                                         <div className="content-name-provider"><span className="name-provider">Điện lực miền Bắc</span>
                                         <span className="icon-arrow-right" style={{backgroundImage: "url('/assets/images/icons/bill/chevron-right-solid.1b15a896fc37da4a8955.svg')"}}/></div>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li className="card-link-wrapper">
-                                <a className="card-link card-provider" href="bill-electric-detail.html">
+                                <Link className="card-link card-provider" to="/bill/bill-electric-detail">
                                     <div className="content-card">
                                         <div className="container-icon-provider">
                                             <img alt="" className="icon-logo" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/6d549869-dca9-403d-927c-efe38216c51f?_=1554954768300" />
@@ -49,10 +52,10 @@ function BillElectricPage() {
                                             <span className="icon-arrow-right" style={{backgroundImage: "url('/assets/images/icons/bill/chevron-right-solid.1b15a896fc37da4a8955.svg')"}}/>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li className="card-link-wrapper">
-                                <a className="card-link card-provider" href="bill-electric-detail.html">
+                                <Link className="card-link card-provider" to="/bill/bill-electric-detail">
                                     <div className="content-card">
                                         <div className="container-icon-provider">
                                             <img alt="" className="icon-logo" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/6d549869-dca9-403d-927c-efe38216c51f?_=1554954768300" />
@@ -62,10 +65,10 @@ function BillElectricPage() {
                                             <span className="icon-arrow-right" style={{backgroundImage: "url('/assets/images/icons/bill/chevron-right-solid.1b15a896fc37da4a8955.svg')"}}/>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li className="card-link-wrapper">
-                                <a className="card-link card-provider" href="bill-electric-detail.html">
+                                <Link className="card-link card-provider" to="/bill/bill-electric-detail">
                                     <div className="content-card">
                                         <div className="container-icon-provider">
                                             <img alt="" className="icon-logo" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/6d549869-dca9-403d-927c-efe38216c51f?_=1554954768300" />
@@ -73,7 +76,7 @@ function BillElectricPage() {
                                         <div className="content-name-provider"><span className="name-provider">Điện lực TP HCM</span>
                                         <span className="icon-arrow-right" style={{backgroundImage: "url('/assets/images/icons/bill/chevron-right-solid.1b15a896fc37da4a8955.svg')"}}/></div>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
