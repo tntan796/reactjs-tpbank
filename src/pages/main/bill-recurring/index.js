@@ -13,12 +13,12 @@ function BillRecurringPage() {
                 <div className="intro-content">
                     <img alt="" src="/assets/images/icons/bill/bill-recurring/thanh-toan-dinh-ky.png" />
                     <span className="slogan">Đặt lệnh hôm nay, Hàng tháng rảnh tay!</span>
-                    <a href="bill-add-bill.html" className="recurring-item-add shadow-btn" tabIndex={0}>
+                    <Link to="/bill/add-bill-recurring" className="recurring-item-add shadow-btn" tabIndex={0}>
                         <div className="icon-add-recurring">
                             <img className="icon-oder" src="/assets/images/icons/bill/bill-recurring/icons-add-orange.svg" />
                         </div>
                         <span className="text-add-recurring">Đặt Lệnh Định Kỳ</span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="content-description" style={{ fontSize: '12px', margin: '16px 0', color: '#AD8AD8', textAlign: 'center' }}>
                     <div>Các lệnh thanh toán định kỳ hiện có</div>

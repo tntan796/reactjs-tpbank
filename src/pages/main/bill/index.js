@@ -8,8 +8,8 @@ function BillPage() {
                 <div className="app-navigation-tab">
                     <div className="tab-main">
                         <div className="nav-tab">
-                            <Link to="bill" className="nav-tab-button active" tabIndex={0}>Thanh toán hoá đơn </Link>
-                            <Link to="bill-recurring" className="nav-tab-button" style={{ display: 'flex' }} tabIndex={0}>Lệnh định kỳ</Link>
+                            <Link to="/bill" className="nav-tab-button active" tabIndex={0}>Thanh toán hoá đơn </Link>
+                            <Link to="/bill/bill-recurring" className="nav-tab-button" style={{ display: 'flex' }} tabIndex={0}>Lệnh định kỳ</Link>
                         </div>
                     </div>
                 </div>

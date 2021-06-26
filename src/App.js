@@ -6,6 +6,7 @@ import LoadingCompnent from "./components/loading/index";
 import QuickLinkComponent from "./components/quick-link/index";
 import TransferPage from "./pages/main/transfer/index";
 import BillPage from "./pages/main/bill/index";
+import AddBillRecurringPage from "./pages/main/bill-recurring/add-bill-recurring/index";
 import BillRecurringPage from "./pages/main/bill-recurring/index";
 import CardPage from "./pages/main/card/index";
 import LoanPage from "./pages/main/loan/index";
@@ -60,8 +61,9 @@ function App() {
               <div className="left">
               <Switch>
                   <Route path="/transfer"> <TransferPage/> </Route>
+                  <Route path="/bill/add-bill-recurring"> <AddBillRecurringPage/> </Route>
+                  <Route path="/bill/bill-recurring"> <BillRecurringPage/> </Route>
                   <Route path="/bill"> <BillPage/> </Route>
-                  <Route path="/bill-recurring"> <BillRecurringPage/> </Route>
                   <Route path="/mobile"> <MobilePage/> </Route>
                   <Route path="/saving"> <SavingPage/> </Route>
                   <Route path="/card"> <CardPage/> </Route>

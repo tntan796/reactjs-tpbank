@@ -21,14 +21,14 @@ function MenuComponent() {
     <div className="left" id="main-menu">
       <div className="main-logo">
         <a href="https://tpb.vn" target="_blank">
-          <img src="./assets/images/main/logo.png" />
+          <img src="/assets/images/main/logo.png" />
         </a>
       </div>
       <div className="menu">
         <div className="menu-group">
           <a className="menu-item parent active" href="/index.html">
             <div className="menu-icon">
-              <img src="./assets/images/main/home-active.png" />
+              <img src="/assets/images/main/home-active.png" />
             </div>
             <div className="menu-name">Trang chủ</div>
             <i className="fas fa-chevron-up" />
@@ -48,7 +48,7 @@ function MenuComponent() {
         <div className="menu-group">
           <a className="menu-item parent" href="/inquiry.html">
             <div className="menu-icon">
-              <img src="./assets/images/main/inquiry-inactive.png" />
+              <img src="/assets/images/main/inquiry-inactive.png" />
             </div>
             <div className="menu-name">Tra cứu</div>
             <i className="fas fa-chevron-down" />
@@ -66,7 +66,7 @@ function MenuComponent() {
         <div className="menu-group">
           <a className="menu-item parent" href="/retail/vX/main/setting">
             <div className="menu-icon">
-              <img src="./assets/images/main/setting-inactive.png" />
+              <img src="/assets/images/main/setting-inactive.png" />
             </div>
             <div className="menu-name">Cài Đặt</div>
             <i className="fas fa-chevron-down" />
@@ -85,7 +85,7 @@ function MenuComponent() {
         </div>
       </div>
       <div className="menu-logo">
-        <img src="./assets/images/main/ic_menu_overlay.png" />
+        <img src="/assets/images/main/ic_menu_overlay.png" />
       </div>
     </div>
   );
