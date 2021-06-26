@@ -1,4 +1,6 @@
 import './index.css';
+import { Link } from "react-router-dom";
+  
 function BillPage() {
     return (
         <div className="content-wrap">
@@ -6,8 +8,8 @@ function BillPage() {
                 <div className="app-navigation-tab">
                     <div className="tab-main">
                         <div className="nav-tab">
-                            <a href="bill.html" className="nav-tab-button active" routerlinkactive="active" tabIndex={0}>Thanh toán hoá đơn </a>
-                            <a href="bill-recurring.html" className="nav-tab-button" routerlinkactive="active" style={{ display: 'flex' }} tabIndex={0}>Lệnh định kỳ</a>
+                            <Link to="bill" className="nav-tab-button active" tabIndex={0}>Thanh toán hoá đơn </Link>
+                            <Link to="bill-recurring" className="nav-tab-button" style={{ display: 'flex' }} tabIndex={0}>Lệnh định kỳ</Link>
                         </div>
                     </div>
                 </div>
