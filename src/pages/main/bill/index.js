@@ -23,12 +23,12 @@ function BillPage() {
                 </div>
                 <div className="list-card-link">
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a className="card-link" style={{ position: 'relative' }} href="bill-electrict.html">
+                        <Link className="card-link" style={{ position: 'relative' }} to="/bill/bill-electric">
                             <div className="card-img">
                                 <img src="/assets/images/icons/bill/electricity.png" />
                             </div>
                             <div className="card-name card-color">Điện</div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
                         <a className="card-link" style={{ position: 'relative' }}>
