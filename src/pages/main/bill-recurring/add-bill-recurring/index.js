@@ -1,3 +1,4 @@
+import './index.css';
 function AddBillRecurringPage() {
     return (
         <div className="content-wrap">
@@ -5,7 +6,7 @@ function AddBillRecurringPage() {
             <div className="mt-2 mb-3" style={{ borderBottom: '1px solid #E6E9EE' }} />
             <div style={{ width: '50%', marginBottom: '20px' }}>
                 <div className="search-input">
-                    <input className="form-control" type="text" placeholder="Tìm kiếm dịch vụ" />
+                    <input className="form-control" type="text" placeholder="Tìm kiếm dịch vụ" style={{backgroundImage: "url('/assets/images/icons/bill/bill-add-bill/search_normal.3841bb54b2df9a8bde6c.svg')"}}/>
                 </div>
             </div>
             <div className="list-card-link">

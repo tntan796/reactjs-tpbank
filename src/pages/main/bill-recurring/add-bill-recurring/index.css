@@ -1,14 +1,7 @@
 .search-input {
     position: relative;
 }
-input[type=text] {
-    border: 1px solid #e2d8ee;
-    height: 44px;
-    background-image: url(/assets/images/icons/bill/bill-add-bill/search_normal.3841bb54b2df9a8bde6c.svg);
-    background-position: 9px 13px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
+
 .form-control {
     color: #42236a;
     font-size: 14px;
@@ -27,4 +20,13 @@ input[type=text] {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type=text] {
+    border: 1px solid #e2d8ee;
+    height: 44px;
+    background-image: "url(/assets/images/icons/bill/bill-add-bill/search_normal.3841bb54b2df9a8bde6c.svg)";
+    background-position: 9px 13px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
