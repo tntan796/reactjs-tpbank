@@ -1,4 +1,5 @@
 import './index.css';
+import { Link } from 'react-router-dom';
 
 function SavingPage() {
     return (
@@ -20,9 +21,11 @@ function SavingPage() {
                     <div className="list-saving">
                         <div className="image-cover" style={{backgroundImage: "url('/assets/images/icons/saving/saving-home-cover-2.4ee69270ca6f9bfa026c.png')"}}>
                             <span>Tiết kiệm càng nhiều, lợi ích càng nhiều!</span>
-                            <div className="create-package" onclick="window.location.replace('/saving-create-package.html');">
-                                <i className="fas fa-plus mr-2" />
-                                <span>Tạo Gói Tiết Kiệm</span>
+                            <div className="create-package">
+                                <Link  to="/saving/create-package">
+                                    <i className="fas fa-plus mr-2" />
+                                    <span>Tạo Gói Tiết Kiệm</span>
+                                </Link>
                             </div>
                         </div>
                         <div className="title">Gói Tiết kiệm Điện tử đã có (83)</div>
