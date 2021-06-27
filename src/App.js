@@ -16,6 +16,7 @@ import LoyalPage from "./pages/main/loyal/index";
 import MobilePage from "./pages/main/mobile/index";
 import WalletPage from "./pages/main/wallet/index";
 import SavingPage from "./pages/main/saving/index";
+import SavingDetailPage from "./pages/main/saving/saving-detail/index";
 import SavingCreatePackagePage from "./pages/main/saving/create-package/index";
 import OverseasStudyPage from "./pages/main/overseas-study/index";
 import InquiryAccount from "./pages/inquiry/account/index";
@@ -70,6 +71,7 @@ function App() {
                   <Route path="/bill/bill-electric-detail"> <BillElectricDetailPage/> </Route>
                   <Route path="/bill"> <BillPage/> </Route>
                   <Route path="/mobile"> <MobilePage/> </Route>
+                  <Route path="/saving/saving-detail"> <SavingDetailPage/> </Route>
                   <Route path="/saving/create-package"> <SavingCreatePackagePage/> </Route>
                   <Route path="/saving"> <SavingPage/> </Route>
                   <Route path="/card"> <CardPage/> </Route>
