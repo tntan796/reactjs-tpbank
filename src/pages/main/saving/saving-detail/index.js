@@ -71,7 +71,7 @@ function SavingDetailPage() {
                                 <h5>Khi đến kỳ hạn</h5>
                                 <h6>Nhận lãi, chuyển gốc sang kỳ hạn mới
                                     <span className="pointer">
-                                        <a href="saving-autoroll-setting.html">Chỉnh sửa</a>
+                                        <Link to="/saving/autoroll-setting">Chỉnh sửa</Link>
                                     </span>
                                 </h6>
                             </div>

@@ -41,7 +41,7 @@ function SavingPage() {
                                 </div>
                                 <div className="saving-finalization">
                                     <div className="finalization-date"> Tất toán 17/03/2021 </div>
-                                    <Link className="action" to="saving/saving-detail">Xem chi tiết
+                                    <Link className="action" to="/saving/saving-detail">Xem chi tiết
                                         <i className="fas fa-chevron-right ml-2" />
                                     </Link>
                                 </div>
@@ -59,7 +59,7 @@ function SavingPage() {
                                 </div>
                                 <div className="saving-finalization">
                                     <div className="finalization-date"> Tất toán 08/03/2021 </div>
-                                    <Link className="action" to="saving/saving-detail">Xem chi tiết
+                                    <Link className="action" to="/saving/saving-detail">Xem chi tiết
                                         <i className="fas fa-chevron-right ml-2" />
                                     </Link>
                                 </div>
