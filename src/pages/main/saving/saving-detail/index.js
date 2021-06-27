@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 function SavingDetailPage() {
     return (
@@ -48,7 +49,7 @@ function SavingDetailPage() {
                                 <div className="name-saving">
                                     <h6>TK Điện Tử 10/02/2021</h6>
                                     <button>
-                                        <a href="saving-edit-saving-name.html">Đổi tên</a>
+                                        <Link to="/saving/change-package-name">Đổi tên</Link>
                                     </button>
                                 </div>
                             </div>

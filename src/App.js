@@ -18,6 +18,8 @@ import WalletPage from "./pages/main/wallet/index";
 import SavingPage from "./pages/main/saving/index";
 import SavingDetailPage from "./pages/main/saving/saving-detail/index";
 import SavingCreatePackagePage from "./pages/main/saving/create-package/index";
+import ChangePackageNamePage from "./pages/main/saving/change-package-name/index";
+import NotFoundPage from "./pages/not-found/index";
 import OverseasStudyPage from "./pages/main/overseas-study/index";
 import InquiryAccount from "./pages/inquiry/account/index";
 import InquiryCreditCard from "./pages/inquiry/credit-card/index";
@@ -71,6 +73,7 @@ function App() {
                   <Route path="/bill/bill-electric-detail"> <BillElectricDetailPage/> </Route>
                   <Route path="/bill"> <BillPage/> </Route>
                   <Route path="/mobile"> <MobilePage/> </Route>
+                  <Route path="/saving/change-package-name"> <ChangePackageNamePage/> </Route>
                   <Route path="/saving/saving-detail"> <SavingDetailPage/> </Route>
                   <Route path="/saving/create-package"> <SavingCreatePackagePage/> </Route>
                   <Route path="/saving"> <SavingPage/> </Route>
@@ -95,7 +98,8 @@ function App() {
                   <Route path="/setting-faq"> <SettingFaqPage/> </Route>
                   <Route path="/setting-support"> <SettingSupportPage/> </Route>
                   <Route path="/setting-referring"> <SettingReferringPage/> </Route>
-                  <Route path="/"> <TransferPage/> </Route>
+                  <Route path="/" exact> <TransferPage/> </Route>
+                  <Route> <NotFoundPage/> </Route>
                 </Switch>
               </div>
               <div className="right">
