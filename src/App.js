@@ -14,6 +14,7 @@ import ChangeCardPinPage from "./pages/main/card/change-card-pin/index";
 import CardPage from "./pages/main/card/index";
 import LoanPage from "./pages/main/loan/index";
 import LoyalPage from "./pages/main/loyal/index";
+import LoyalGiftPage from "./pages/main/loyal/loyal-gift/index";
 import MobilePage from "./pages/main/mobile/index";
 import WalletPage from "./pages/main/wallet/index";
 import SavingPage from "./pages/main/saving/index";
@@ -78,6 +79,7 @@ function App() {
                   <Route path="/card/change-card-pin"> <ChangeCardPinPage/> </Route>
                   <Route path="/card"> <CardPage/> </Route>
                   <Route path="/loan"> <LoanPage/> </Route>
+                  <Route path="/loyalty/gift"> <LoyalGiftPage/> </Route>
                   <Route path="/loyalty"> <LoyalPage/> </Route>
                   <Route path="/wallet"> <WalletPage/> </Route>
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
