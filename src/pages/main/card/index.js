@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 function CardPage() {
     return (
@@ -45,11 +46,11 @@ function CardPage() {
                                 </div>
                                 <p>Cấp lại mã PIN thẻ</p>
                             </div>
-                            <a className="btn-action" href="card-change-card-pin.html">
+                            <Link className="btn-action" to="card/change-card-pin">
                                 <div className="btn-icon shadow-btn change-card-pin" tabIndex={0}>
                                 </div>
                                 <p>Thay đổi mã PIN thẻ</p>
-                            </a>
+                            </Link>
                         </div>
                         <div className="info-ares">
                             <div className="card-debit-atm">

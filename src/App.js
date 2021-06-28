@@ -10,6 +10,7 @@ import AddBillRecurringPage from "./pages/main/bill-recurring/add-bill-recurring
 import BillElectricDetailPage from "./pages/main/bill/bill-electric-detail/index";
 import BillRecurringPage from "./pages/main/bill-recurring/index";
 import BillElectricPage from "./pages/main/bill/bill-electric/index";
+import ChangeCardPinPage from "./pages/main/card/change-card-pin/index";
 import CardPage from "./pages/main/card/index";
 import LoanPage from "./pages/main/loan/index";
 import LoyalPage from "./pages/main/loyal/index";
@@ -74,6 +75,7 @@ function App() {
                   <Route path="/saving/saving-detail"> <SavingDetailPage/> </Route>
                   <Route path="/saving/create-package"> <SavingCreatePackagePage/> </Route>
                   <Route path="/saving"> <SavingPage/> </Route>
+                  <Route path="/card/change-card-pin"> <ChangeCardPinPage/> </Route>
                   <Route path="/card"> <CardPage/> </Route>
                   <Route path="/loan"> <LoanPage/> </Route>
                   <Route path="/loyalty"> <LoyalPage/> </Route>
