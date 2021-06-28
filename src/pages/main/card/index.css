@@ -1,13 +1,4 @@
 
-/*Card */
-.card-name {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 28px;
-    margin-bottom: .5em;
-}
 .swiper-container {
     margin: 0 auto;
     position: relative;
@@ -348,12 +339,10 @@
 .card-detail .info-ares .info-ares-item.view-status span:last-child {
     color: #27ae60;
 }
-/*End card */
 
 
 
 @media screen and (max-width: 320px) {
-    /*Card*/
     .card-slider-container {
         height: 200px;
     }
@@ -375,5 +364,4 @@
     .card-slider-container .swiper-wrapper .card-slider-slide {
         width: 290px;
     }
-    /*End card*/
 }
