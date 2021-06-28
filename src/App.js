@@ -17,7 +17,7 @@ import LoyalPage from "./pages/main/loyal/index";
 import LoyalGiftPage from "./pages/main/loyal/loyal-gift/index";
 import MobilePage from "./pages/main/mobile/index";
 import WalletPage from "./pages/main/wallet/index";
-import AddLinkPage from "./pages/main/wallet/index";
+import AddLinkPage from "./pages/main/wallet/add-link/index";
 import SavingPage from "./pages/main/saving/index";
 import SavingAutorollSettingPage from "./pages/main/saving/autoroll-setting/index";
 import SavingDetailPage from "./pages/main/saving/saving-detail/index";
