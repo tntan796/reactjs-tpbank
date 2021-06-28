@@ -54,13 +54,13 @@ function MenuComponent() {
             <i className="fas fa-chevron-down" />
           </a>
           <div className="menu-item-list">
-            <MyCustomLink label="Tài khoản" to="/inquiry-account" />
-            <MyCustomLink label="Tiết kiệm" to="/inquiry-saving" />
-            <MyCustomLink label="Khoản vay" to="/inquiry-loan" />
-            <MyCustomLink label="Thẻ tín dụng" to="/inquiry-credit-card" />
-            <MyCustomLink label="Lệnh chuyển tiền" to="/inquiry-transfer" />
-            <MyCustomLink label="Thông Tin Tổng Hợp" to="/inquiry-general" />
-            <MyCustomLink label="Hóa Đơn VAT" to="/inquiry-vat" />
+            <MyCustomLink label="Tài khoản" to="/inquiry/inquiry-account" />
+            <MyCustomLink label="Tiết kiệm" to="/inquiry/inquiry-saving" />
+            <MyCustomLink label="Khoản vay" to="/inquiry/inquiry-loan" />
+            <MyCustomLink label="Thẻ tín dụng" to="/inquiry/inquiry-credit-card" />
+            <MyCustomLink label="Lệnh chuyển tiền" to="/inquiry/inquiry-transfer" />
+            <MyCustomLink label="Thông Tin Tổng Hợp" to="/inquiry/inquiry-general" />
+            <MyCustomLink label="Hóa Đơn VAT" to="/inquiry/inquiry-vat" />
           </div>
         </div>
         <div className="menu-group">

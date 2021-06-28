@@ -25,13 +25,7 @@ import SavingCreatePackagePage from "./pages/main/saving/create-package/index";
 import ChangePackageNamePage from "./pages/main/saving/change-package-name/index";
 import NotFoundPage from "./pages/not-found/index";
 import OverseasStudyPage from "./pages/main/overseas-study/index";
-import InquiryAccount from "./pages/inquiry/account/index";
-import InquiryCreditCard from "./pages/inquiry/credit-card/index";
-import InquiryGeneral from "./pages/inquiry/general/index";
-import InquiryLoan from "./pages/inquiry/loan/index";
-import InquirySavingPage from "./pages/inquiry/saving/index";
-import InquiryTransferPage from "./pages/inquiry/transfer/index";
-import InquiryVatPage from "./pages/inquiry/vat/index";
+import InquiryPage from "./pages/inquiry/index";
 import SettingAuthMethodPage from "./pages/setting/auth-method/index";
 import SettingChangePasswordPage from "./pages/setting/change-password/index";
 import SettingDefaultAccountPage from "./pages/setting/default-account/index";
@@ -90,13 +84,7 @@ function App() {
                   <Route path="/wallet/add-link"> <AddLinkPage/> </Route>
                   <Route path="/wallet"> <WalletPage/> </Route>
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
-                  <Route path="/inquiry-account"> <InquiryAccount/> </Route>
-                  <Route path="/inquiry-saving"> <InquirySavingPage/> </Route>
-                  <Route path="/inquiry-loan"> <InquiryLoan/> </Route>
-                  <Route path="/inquiry-credit-card"> <InquiryCreditCard/> </Route>
-                  <Route path="/inquiry-transfer"> <InquiryTransferPage/> </Route>
-                  <Route path="/inquiry-general"> <InquiryGeneral/> </Route>
-                  <Route path="/inquiry-vat"> <InquiryVatPage/> </Route>
+                  <Route path="/inquiry"> <InquiryPage/> </Route>
                   <Route path="/setting-upgrade"> <SettingUpgradePage/> </Route>
                   <Route path="/setting-user"> <SettingUserPage/> </Route>
                   <Route path="/setting-change-password"> <SettingChangePasswordPage/> </Route>
