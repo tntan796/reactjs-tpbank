@@ -17,6 +17,7 @@ import LoyalPage from "./pages/main/loyal/index";
 import LoyalGiftPage from "./pages/main/loyal/loyal-gift/index";
 import MobilePage from "./pages/main/mobile/index";
 import WalletPage from "./pages/main/wallet/index";
+import AddLinkPage from "./pages/main/wallet/index";
 import SavingPage from "./pages/main/saving/index";
 import SavingDetailPage from "./pages/main/saving/saving-detail/index";
 import SavingCreatePackagePage from "./pages/main/saving/create-package/index";
@@ -81,6 +82,7 @@ function App() {
                   <Route path="/loan"> <LoanPage/> </Route>
                   <Route path="/loyalty/gift"> <LoyalGiftPage/> </Route>
                   <Route path="/loyalty"> <LoyalPage/> </Route>
+                  <Route path="/wallet/add-link"> <AddLinkPage/> </Route>
                   <Route path="/wallet"> <WalletPage/> </Route>
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
                   <Route path="/inquiry-account"> <InquiryAccount/> </Route>
