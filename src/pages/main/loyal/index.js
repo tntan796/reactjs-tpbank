@@ -55,8 +55,7 @@ function LoyalPage() {
                                     <div className="option">
                                         <div className="selection-card-image">
                                             <img alt="" className="img-default" src="/assets/images/icons/loyalty/ic_shopping.svg" />
-                                            
-                                             alt="" className="img-hide" src="/assets/images/icons/loyalty/ic_shopping_active.svg" />
+                                            <img alt="" className="img-hide" src="/assets/images/icons/loyalty/ic_shopping_active.svg" />
                                         </div>
                                         <div className="selection-card-title">
                                             <span>Mua sắm</span>

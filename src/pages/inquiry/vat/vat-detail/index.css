@@ -25,12 +25,7 @@
     line-height: 28px;
     color: #42236a;
 }
-img {
-    width: 16px;
-    height: 16px;
-    margin-left: 4px;
-    margin-top: -5px;
-}
+
 .list-account {
     height: -webkit-fit-content;
     height: -moz-fit-content;
