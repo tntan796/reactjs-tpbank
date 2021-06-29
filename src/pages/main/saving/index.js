@@ -8,7 +8,7 @@ function SavingPage() {
                 <div className="saving-home-normal">
                     <div className="saving-action-inquiry">
                         <div className="icon-inquiry">
-                            <img src="https://ebank.tpb.vn/retail/vX/assets/images/menu/inquiry-active.svg" />
+                            <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/images/menu/inquiry-active.svg" />
                         </div>
                         <div className="content">
                             <span className="title">Tra cứu gói tiết kiệm tại Quầy, LiveBank, Savy?</span>
@@ -31,7 +31,7 @@ function SavingPage() {
                         <div className="title">Gói Tiết kiệm Điện tử đã có (83)</div>
                         <div className="card-saving-item">
                             <div className="icon-saving">
-                                <img src="/assets/images/icons/saving/ic_piggy_2.svg" />
+                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
                             </div>
                             <div className="saving-info">
                                 <div className="saving-name">TK Điện Tử 10/02/2021</div>
@@ -49,7 +49,7 @@ function SavingPage() {
                         </div>
                         <div className="card-saving-item">
                             <div className="icon-saving">
-                                <img src="/assets/images/icons/saving/ic_piggy_2.svg" />
+                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
                             </div>
                             <div className="saving-info">
                                 <div className="saving-name">TK Điện Tử 08/02/2021</div>

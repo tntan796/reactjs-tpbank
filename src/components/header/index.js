@@ -2,9 +2,9 @@ function HeaderComponent() {
     return (
         <div className="page-header">
             <div className="top-header">
-                <img id="hamburger-menu" src="/assets/images/main/ic_menu.png" />
+                <img alt="" id="hamburger-menu" src="/assets/images/main/ic_menu.png" />
                 <a href="https://tpb.vn" target="_blank">
-                    <img className="logo" src="/assets/images/main/logo.png" />
+                    <img alt="" className="logo" src="/assets/images/main/logo.png" />
                 </a>
             </div>
             <div className="left-text">

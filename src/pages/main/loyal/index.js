@@ -55,7 +55,8 @@ function LoyalPage() {
                                     <div className="option">
                                         <div className="selection-card-image">
                                             <img alt="" className="img-default" src="/assets/images/icons/loyalty/ic_shopping.svg" />
-                                            <img alt="" className="img-hide" src="/assets/images/icons/loyalty/ic_shopping_active.svg" />
+                                            
+                                             alt="" className="img-hide" src="/assets/images/icons/loyalty/ic_shopping_active.svg" />
                                         </div>
                                         <div className="selection-card-title">
                                             <span>Mua sắm</span>
@@ -107,7 +108,7 @@ function LoyalPage() {
                                                 <div className="select-container">
                                                     <div className="select-container__wrap-top">
                                                         <span className="select-container__item-selected">Toàn bộ quà</span>
-                                                        <img className="select-container__icon" src="/assets/images/icons/loyalty/chevron-right-solid.svg" width="8px" />
+                                                        <img alt="" className="select-container__icon" src="/assets/images/icons/loyalty/chevron-right-solid.svg" width="8px" />
                                                     </div>
                                                     <div className="select-container__wrap-items select-container__wrap-items--height">
                                                         <div className="select-container__select-option">
@@ -126,7 +127,7 @@ function LoyalPage() {
                                                     <div className="select-container__wrap-top">
                                                         <span className="select-container__item-selected">Từ thấp đến
                                                             cao</span>
-                                                        <img className="select-container__icon" src="/assets/images/icons/loyalty/chevron-right-solid.svg" width="8px" />
+                                                        <img alt="" className="select-container__icon" src="/assets/images/icons/loyalty/chevron-right-solid.svg" width="8px" />
                                                     </div>
                                                     <div className="select-container__wrap-items select-container__wrap-items--height">
                                                         <div className="select-container__select-option">
@@ -159,7 +160,7 @@ function LoyalPage() {
                                                     <Link className="exchange-gift" to="/loyalty/gift">
                                                         <span className="text-link text-link-size">
                                                             Đổi quà
-                                                            <img className="common-image" src="/assets/images/icons/loyalty/right.svg" />
+                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
                                                         </span>
                                                     </Link>
                                                 </div>
@@ -184,7 +185,7 @@ function LoyalPage() {
                                                     <Link className="exchange-gift" to="/loyalty/gift">
                                                         <span className="text-link text-link-size">
                                                             Đổi quà
-                                                            <img className="common-image" src="/assets/images/icons/loyalty/right.svg" />
+                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
                                                         </span>
                                                     </Link>
                                                 </div>
@@ -209,7 +210,7 @@ function LoyalPage() {
                                                     <Link className="exchange-gift" to="/loyalty/gift">
                                                         <div className="text-link text-link-size" href="loyalty-gift.html">
                                                             Đổi quà
-                                                            <img className="common-image" src="/assets/images/icons/loyalty/right.svg" />
+                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
                                                         </div>
                                                     </Link>
                                                 </div>

@@ -4,25 +4,25 @@ function TransferPage() {
         <div className="content-wrap">
             <div className="list-card-link">
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <a href="#" className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/internal.png" />
+                            <img alt="" src="/assets/images/icons/transfer/internal.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền trong ngân hàng</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <a PM className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/interbank.png" />
+                            <img alt="" src="/assets/images/icons/transfer/interbank.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền liên ngân hàng</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <a href="#" className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/napas.png" />
+                            <img alt="" src="/assets/images/icons/transfer/napas.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền qua thẻ ATM</div>
                     </a>
@@ -30,7 +30,7 @@ function TransferPage() {
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <a href="/transfer-stock.html" className="card-link" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/icons-stock.png" />
+                            <img alt="" src="/assets/images/icons/transfer/icons-stock.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền chứng khoán</div>
                     </a>
@@ -38,7 +38,7 @@ function TransferPage() {
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <a className="card-link" style={{ position: 'relative' }} href="/transfer-bath.html">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/batch.png" />
+                            <img alt="" src="/assets/images/icons/transfer/batch.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền theo danh sách</div>
                     </a>
@@ -46,15 +46,15 @@ function TransferPage() {
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <a className="card-link" style={{ position: 'relative' }} href="transfer-schedule.html">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/schedule.png" />
+                            <img alt="" src="/assets/images/icons/transfer/schedule.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền theo lịch</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="javascript:void(0);" data-toggle="modal" data-target="#transfer-money">
+                    <a className="card-link" style={{ position: 'relative' }} href="#" data-toggle="modal" data-target="#transfer-money">
                         <div className="card-img">
-                            <img src="/assets/images/icons/transfer/form.png" />
+                            <img alt="" src="/assets/images/icons/transfer/form.png" />
                         </div>
                         <div className="card-name card-color">Mẫu chuyển tiền</div>
                     </a>
@@ -68,7 +68,7 @@ function TransferPage() {
                 <div className="transfer-body">
                     <div className="empty-favorites text-center">
                         <span className="title">Danh sách chuyển tiền ưa thích</span>
-                        <img className="mt-3" src="/assets/images/icons/transfer/contact-list.png" />
+                        <img alt="" className="mt-3" src="/assets/images/icons/transfer/contact-list.png" />
                         <span className="text-center mt-2 content">Danh sách còn trống.
                             <span className="content-action hover-action" data-toggle="modal" data-target="#app-favorites">Bấm vào đây </span> để thêm tài
                             khoản thường xuyên sử dụng giao dịch</span>
@@ -105,7 +105,7 @@ function TransferPage() {
                                 <div className="favorite-content">
                                     <div className="favorite-padding">
                                         <div className="searching-container ng-untouched ng-pristine ng-valid">
-                                            <img className="searching-icon" src="/assets/images/icons/transfer/ic_search.svg" />
+                                            <img alt="" className="searching-icon" src="/assets/images/icons/transfer/ic_search.svg" />
                                             <input className="searching-input ng-untouched ng-pristine ng-valid" formcontrolname="object" placeholder="Tìm kiếm" />
                                         </div>
                                     </div>
@@ -113,25 +113,25 @@ function TransferPage() {
                                         <div className="favorite-detail">
                                             <div className="favorite-name favorite-margin-bottom">
                                                 <span className="favorite-text-bold favorite-text-size">B</span>
-                                                <img className="favorite-icon" src="/assets/images/icons/transfer/icons-star.svg" />
+                                                <img alt="" className="favorite-icon" src="/assets/images/icons/transfer/icons-star.svg" />
                                             </div>
                                             <div className="favorite-account">
                                                 <span className="favorite-text-size">23425</span>
-                                                <img className="favorite-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
+                                                <img alt="" className="favorite-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
                                             </div>
                                         </div>
                                         <div className="favorite-detail">
                                             <div className="favorite-name favorite-margin-bottom">
                                                 <span className="favorite-text-bold favorite-text-size">A</span>
-                                                <img className="favorite-icon" src="/assets/images/icons/transfer/icons-star.svg" />
+                                                <img alt="" className="favorite-icon" src="/assets/images/icons/transfer/icons-star.svg" />
                                             </div>
                                             <div className="favorite-account"><span className="favorite-text-size">234234</span>
-                                                <img className="favorite-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
+                                                <img alt="" className="favorite-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <img className="icon-add" routerlink="/main/transfer/contact/create" src="/assets/images/icons/transfer/ic_add-fund-transfer.svg" tabIndex={0} />
+                                <img alt="" className="icon-add" routerlink="/main/transfer/contact/create" src="/assets/images/icons/transfer/ic_add-fund-transfer.svg" tabIndex={0} />
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ function TransferPage() {
                                 <div className="template-content">
                                     <div className="template-padding">
                                         <div className="searching-container ng-untouched ng-pristine ng-valid">
-                                            <img className="searching-icon" src="/assets/images/icons/transfer/ic_search.svg" />
+                                            <img alt="" className="searching-icon" src="/assets/images/icons/transfer/ic_search.svg" />
                                             <input className="searching-input ng-untouched ng-pristine ng-valid" formcontrolname="object" placeholder="Tìm kiếm" />
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@ function TransferPage() {
                                             <div className="template-action">
                                                 <span className="template-text-size action-name">Dùng mẫu <i className="icon-right" />
                                                 </span>
-                                                <img className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
+                                                <img alt="" className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
                                             </div>
                                         </div>
                                         <div className="template-detail">
@@ -197,7 +197,7 @@ function TransferPage() {
                                                 <span className="template-text-size action-name">Dùng mẫu
                                                     <i className="icon-right" />
                                                 </span>
-                                                <img className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
+                                                <img alt="" className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
                                             </div>
                                         </div>
                                         <div className="template-detail">
@@ -220,7 +220,7 @@ function TransferPage() {
                                                 <span className="template-text-size action-name">Dùng mẫu
                                                     <i className="icon-right" />
                                                 </span>
-                                                <img className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
+                                                <img alt="" className="template-icon" src="/assets/images/icons/transfer/icons-trash.svg" />
                                             </div>
                                         </div>
                                     </div>

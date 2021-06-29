@@ -12,13 +12,13 @@ function WalletPage() {
             <div className="ewallet-home-content">
                 <div className="my-wallet-list">
                     <Link className="wallet-item shadow-btn" tabIndex={0} to="/wallet/add-link">
-                        <img src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_add-circular-button.svg" />
+                        <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_add-circular-button.svg" />
                         <div className="wallet-desc">
                             <div>Thêm liên kết ví</div>
                         </div>
                     </Link>
                     <div className="wallet-item shadow-btn">
-                        <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/1e61f265-d40f-437a-87e2-08eca11f0ebe?_=1571989230425" />
+                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/1e61f265-d40f-437a-87e2-08eca11f0ebe?_=1571989230425" />
                         <div className="wallet-desc">
                             <div className="provider">Momo</div>
                             <div className="fullname">TANO</div>
@@ -26,7 +26,7 @@ function WalletPage() {
                         </div>
                     </div>
                     <div className="wallet-item shadow-btn">
-                        <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/4764a2da-e492-431f-9735-a61ab859c224?_=1571989188844" />
+                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/4764a2da-e492-431f-9735-a61ab859c224?_=1571989188844" />
                         <div className="wallet-desc">
                             <div className="provider">AirPay</div>
                             <div className="fullname">TANO</div>
@@ -34,7 +34,7 @@ function WalletPage() {
                         </div>
                     </div>
                     <div className="wallet-item shadow-btn">
-                        <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/3e0f25cd-b027-4748-ada5-b1faa4223b0f?_=1591348045058" />
+                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/3e0f25cd-b027-4748-ada5-b1faa4223b0f?_=1591348045058" />
                         <div className="wallet-desc">
                             <div className="provider">ZaloPay</div>
                             <div className="fullname">TANO</div>

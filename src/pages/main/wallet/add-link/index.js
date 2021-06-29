@@ -14,7 +14,7 @@ function AddLinkPage() {
                                 <span className="acc-balance">706,555VND</span>
                                 <span className="change-acc-btn">
                                     <span className="text-change text-link" data-toggle="modal" data-target="#ewallet-choose-account-wrap">Đổi</span>
-                                    <img src="/assets/images/icons/wallet/right.svg" />
+                                    <img alt="" src="/assets/images/icons/wallet/right.svg" />
                                 </span>
                             </div>
                         </div>
@@ -24,9 +24,10 @@ function AddLinkPage() {
                             <div className="select-container">
                                 <div className="select-container__wrap-top">
                                     <span className="select-container__item-selected">AirPay</span>
-                                    <img className="select-container__icon" src="/assets/images/icons/wallet/chevron-right-solid.svg" width="8px" />
+                                    <img alt="" className="select-container__icon" src="/assets/images/icons/wallet/chevron-right-solid.svg" width="8px" />
                                 </div>
-                                <div className="select-container__wrap-items select-container__wrap-items--height">
+                       
+                               <div className="select-container__wrap-items select-container__wrap-items--height">
                                     <div className="select-container__select-option">
                                         AirPay
                                     </div>
@@ -83,7 +84,7 @@ function AddLinkPage() {
                                         <span className="acc-balance">706,555 VND</span>
                                         <span className="change-acc-btn">
                                             <span className="text-change text-link">Chọn</span>
-                                            <img src="https://ebank.tpb.vn/retail/vX/assets/icons/right.svg" /></span>
+                                            <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/right.svg" /></span>
                                     </div>
                                 </div>
                             </div>

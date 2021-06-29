@@ -10,7 +10,7 @@ function SavingCreatePackagePage() {
                         <div className="title">Lựa chọn loại tiết kiệm để bắt đầu</div>
                         <div className="card-select-package">
                             <div className="icon-package">
-                                <img src="/assets/images/icons/saving/ic_piggy_2.svg" />
+                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
                             </div>
                             <div className="package-info">
                                 <div className="package-name">Tiết kiệm Điện Tử</div>
@@ -31,7 +31,7 @@ function SavingCreatePackagePage() {
                         </div>
                         <div className="card-select-package">
                             <div className="icon-package">
-                                <img src="/assets/images/icons/saving/ic_gold_2.svg" />
+                                <img alt="" src="/assets/images/icons/saving/ic_gold_2.svg" />
                             </div>
                             <div className="package-info">
                                 <div className="package-name">Tiết kiệm Tài Lộc Điện Tử</div>
@@ -116,7 +116,7 @@ function SavingCreatePackagePage() {
                                 <div className="select-container__wrap-top">
                                     <span className="select-container__placeholder">Chọn kỳ
                                         hạn</span>
-                                    <img className="select-container__icon" src="assets/icons/chevron-right-solid.svg" width="8px" />
+                                    <img alt="" className="select-container__icon" src="assets/icons/chevron-right-solid.svg" width="8px" />
                                 </div>
                                 <div className="select-container__wrap-items select-container__wrap-items--height">
                                 </div>
@@ -131,7 +131,7 @@ function SavingCreatePackagePage() {
                                 <div className="select-container__wrap-top">
                                     <span className="select-container__placeholder">Cài đặt tự động
                                         tái tục</span>
-                                    <img className="select-container__icon" src="assets/icons/chevron-right-solid.svg" width="8px" />
+                                    <img alt="" className="select-container__icon" src="assets/icons/chevron-right-solid.svg" width="8px" />
                                 </div>
                                 <div className="select-container__wrap-items select-container__wrap-items--height">
                                     <div className="select-container__select-option"> Nhận cả gốc và

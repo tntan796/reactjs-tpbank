@@ -8,12 +8,12 @@ function ContentComponent() {
                             <div className="card-name">TANO</div>
                             <div className="card-number">124234234</div>
                             <div className="card-balances"> 706,555 <span>VND</span>
-                                <img className="eye" src="/assets/images/main/ic_un-eye.png" />
+                                <img alt="" className="eye" src="/assets/images/main/ic_un-eye.png" />
                             </div>
                             <div className="recharge-button">
                                 <a href="/retail/vX/main/inquiry/account/overview?id=02105921501">
                                     <span className="text-link">Chi tiết</span>
-                                    <img src="/assets/images/main/right.png" />
+                                    <img alt="" src="/assets/images/main/right.png" />
                                 </a>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function ContentComponent() {
                             <div className="instruction">
                                 <div>
                                     <div>
-                                        <img src="/assets/images/main/search-function.svg" style={{ height: '24px' }} />
+                                        <img alt="" src="/assets/images/main/search-function.svg" style={{ height: '24px' }} />
                                     </div>
                                     <div className="mt-1"> Quý khách có thể tìm nhanh các tính năng </div>
                                     <div> Ví dụ: Chuyển tiền theo lịch, Tra cứu thẻ tín dụng... </div>
@@ -57,7 +57,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="/transfer-internal.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/transfer.png" />
+                            <img alt="" src="/assets/images/main/transfer.png" />
                         </div>
                         <div className="card-name card-color">Chuyển khoản</div>
                     </a>
@@ -65,7 +65,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="bill.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/bill.png" />
+                            <img alt="" src="/assets/images/main/bill.png" />
                         </div>
                         <div className="card-name card-color">Hoá đơn</div>
                     </a>
@@ -73,7 +73,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="mobile.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/phone-topup.png" />
+                            <img alt="" src="/assets/images/main/phone-topup.png" />
                         </div>
                         <div className="card-name card-color">Nạp tiền điện thoại</div>
                     </a>
@@ -81,7 +81,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="inquiry.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/inquiry.png" />
+                            <img alt="" src="/assets/images/main/inquiry.png" />
                         </div>
                         <div className="card-name card-color">Tra cứu</div>
                     </a>
@@ -89,7 +89,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="saving.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/saving.png" />
+                            <img alt="" src="/assets/images/main/saving.png" />
                         </div>
                         <div className="card-name card-color">Tiết kiệm
                         </div>
@@ -98,7 +98,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="card.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/card.png" />
+                            <img alt="" src="/assets/images/main/card.png" />
                         </div>
                         <div className="card-name card-color">Quản lý thẻ</div>
                     </a>
@@ -106,7 +106,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="loan.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/loan.png" />
+                            <img alt="" src="/assets/images/main/loan.png" />
                         </div>
                         <div className="card-name card-color">Khoản vay</div>
                     </a>
@@ -114,7 +114,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="loyalty.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/loyalty.png" />
+                            <img alt="" src="/assets/images/main/loyalty.png" />
                         </div>
                         <div className="card-name card-color">Khách hàng thân thiết</div>
                     </a>
@@ -122,7 +122,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="wallet.html">
                         <div className="card-img">
-                            <img src="/assets/images/main/ewallet.png" />
+                            <img alt="" src="/assets/images/main/ewallet.png" />
                         </div>
                         <div className="card-name card-color">Ví điện tử
                         </div>
@@ -131,7 +131,7 @@ function ContentComponent() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="/">
                         <div className="card-img">
-                            <img src="/assets/images/main/abroad.png" />
+                            <img alt="" src="/assets/images/main/abroad.png" />
                         </div>
                         <div className="card-name card-color">Chuyển Tiền Du Học</div>
                     </a>

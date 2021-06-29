@@ -35,10 +35,10 @@ function FooterComponent() {
                     <div className="app-store-col">
                         <div className="download-desc">Tải và cài đặt ứng dụng TPBank eBank  lên thiết bị di động</div>
                         <a href="#" target="_blank">
-                            <img src="/assets/images/main/download-ios.png" />
+                            <img alt="" src="/assets/images/main/download-ios.png" />
                         </a>
                         <a className="ml-4" href="#" target="_blank">
-                            <img src="/assets/images/main/download-android.png" />
+                            <img alt="" src="/assets/images/main/download-android.png" />
                         </a>
                     </div>
                 </div>

@@ -27,15 +27,15 @@ function QuickLinkComponent() {
                     <div className="swiper-wrapper" style={{ transitionDuration: '0ms', transform: 'translate3d(-300px, 0px, 0px)' }}>
                         <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index={1} style={{ width: '270px', marginRight: '30px' }}>
                             <a target="_blank" href="#">
-                                <img alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/86a4d975-712f-49f0-9ae0-bded776fc4d7" /></a>
+                                <img  alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/86a4d975-712f-49f0-9ae0-bded776fc4d7" /></a>
                         </div>
                         <div className="swiper-slide swiper-slide-active" data-swiper-slide-index={0} style={{ width: '270px', marginRight: '30px' }}>
                             <a target="_blank" href="#">
-                                <img alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/acdd6d66-7b82-4265-95ee-c6d4021e9c28" /></a>
+                                <img  alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/acdd6d66-7b82-4265-95ee-c6d4021e9c28" /></a>
                         </div>
                         <div className="swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index={1} style={{ width: '270px', marginRight: '30px' }}>
                             <a target="_blank" href="#">
-                                <img alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/86a4d975-712f-49f0-9ae0-bded776fc4d7" /></a>
+                                <img  alt="" className="w-100" style={{ borderRadius: '5px', height: '100%' }} src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/86a4d975-712f-49f0-9ae0-bded776fc4d7" /></a>
                         </div>
                         <div className="swiper-slide swiper-slide-duplicate" data-swiper-slide-index={0} style={{ width: '270px', marginRight: '30px' }}>
                             <a target="_blank" href="#">

@@ -14,28 +14,28 @@ function ChangeCardPinPage() {
                     <div className="app-eye-textbox" fcname="currentPinCode" placeholder="setting.common.pin_code">
                         <div className="mt-3 password-container ng-pristine ng-invalid ng-touched">
                             <input className="form-control input-password ng-pristine ng-invalid ng-touched" type="password" placeholder="Mã PIN" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
                         </div>
                     </div>
                     <div className="mt-4">Nhập mã PIN mới
                         <span className="my-tooltip">
-                            <img className="icon-money-qanda" src="/assets/images/icons/card/change-card-pin/ic_info.svg" style={{ width: '17px' }} />
+                            <img alt="" className="icon-money-qanda" src="/assets/images/icons/card/change-card-pin/ic_info.svg" style={{ width: '17px' }} />
                             <span className="tooltip-text">Mã PIN mới không được trùng mã PIN cũ</span>
                         </span>
                     </div>
                     <div className="app-eye-textbox" fcname="newPinCode" placeholder="txt_change_pin_new_pin">
                         <div className="mt-3 password-container ng-pristine ng-invalid ng-touched">
                             <input className="form-control input-password ng-pristine ng-invalid ng-touched" type="password" placeholder="Mã PIN mới" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
                         </div>
                     </div>
                     <div className="app-eye-textbox" fcname="retypeNewPinCode" placeholder="txt_confirm_new_pin">
                         <div className="mt-3 password-container ng-pristine ng-invalid ng-touched">
                             <input className="form-control input-password ng-untouched ng-pristine ng-invalid" type="password" placeholder="Xác nhận mã PIN mới" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
-                            <img src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_eye.svg" className="show-password" />
+                            <img alt="" src="/assets/images/icons/card/change-card-pin/ic_un-eye.svg" />
                         </div>
                     </div>
                     <button className="btn btn-primary btn-next mt-4" style={{ width: '100%' }} type="submit" disabled>Tiếp Tục</button>

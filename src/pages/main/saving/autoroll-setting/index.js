@@ -42,7 +42,7 @@ function SavingAutorollSettingPage() {
                             <div className="select-container">
                                 <div className="select-container__wrap-top">
                                     <span className="select-container__item-selected">124234234</span>
-                                    <img className="select-container__icon" src="https://ebank.tpb.vn/retail/vX/assets/icons/chevron-right-solid.svg" width="8px" />
+                                    <img alt="" className="select-container__icon" src="https://ebank.tpb.vn/retail/vX/assets/icons/chevron-right-solid.svg" width="8px" />
                                 </div>
                                 <div className="select-container__wrap-items select-container__wrap-items--height">
                                     {/* Hiển thị dropdown :  select-container__wrap-items--height */}
