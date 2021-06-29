@@ -30,10 +30,10 @@ function GeneralDefaultPage() {
                     </Link>
                 </div>
                 <div className="content-card-link-item" tabIndex={0}>
-                    <a className="content-card-link-item-container shadow-btn" href="./inquiry-general-ewallet.html">
+                    <Link className="content-card-link-item-container shadow-btn" to="inquiry-general/ewallet">
                         <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_wallet.svg" />
                         <span>Ví điện tử liên kết</span><i className="fas fa-chevron-right" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="content-card-link-item" tabIndex={0}>
                     <a className="content-card-link-item-container shadow-btn" href="inquiry-general-limit.html">
