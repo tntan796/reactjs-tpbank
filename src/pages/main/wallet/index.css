@@ -1,251 +1,68 @@
-
 /*Wallet*/
-.ewallet-link-content {
-    width: 100%;
-}
-.ewallet-link-content .content-wrapper {
-    max-width: 496px;
-    margin: 0 auto;
-}
-.account-info {
-    background: #fff;
-    border-radius: 5px;
-    padding: 12px 16px;
-    color: #42236a;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-.account-info .title {
-    font-size: 14px;
-    line-height: 1.71;
-    color: #ad8ad8;
-    margin-bottom: 9px;
-    font-weight: 400;
-}
-.account-info .acc-name {
-    margin-bottom: 7px;
-}
-.account-info .acc-number {
-    line-height: 1.57;
-    margin-bottom: 11px;
-}
-.account-info .acc-balance-line {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.account-info .acc-balance-line .acc-balance {
-    font-size: 20px;
-    line-height: 1.4;
-    flex-grow: 1;
-    word-break: break-word;
-}
-.account-info .acc-balance-line .change-acc-btn {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.account-info .acc-balance-line .change-acc-btn .text-change {
-    font-size: 16px;
-    margin-right: -4px;
-    font-weight: 400;
-}
-.text-link {
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #ff9800;
-}
-.account-info .acc-balance-line .change-acc-btn img {
-    width: 27px;
-    height: 27px;
-    margin-right: -9px;
-}
-.select-container {
-    width: 100%;
-    max-width: 35rem;
-    position: relative;
-}
-.select-container {
-    margin: 0 auto;
-}
-.select-container__wrap-top {
-    height: 45px;
-    border-radius: 5px;
-    border: 1px solid #e2d8ee;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fcfcfc;
-}
-.select-container__wrap-top .select-container__item-selected {
-    padding: 15px;
-    font-weight: 500;
+.tab-main {
+    margin-bottom: 32px;
 }
 
-.select-container__wrap-top .select-container__icon {
-    margin-right: 16px;
-    transition: all .2s;
-    transform: rotate(90deg);
-}
-.select-container__wrap-items--height {
-    max-height: 0;
-    transition: max-height .2s;
-}
-.select-container__wrap-items .select-container__select-option {
-    height: 45px;
-    border-bottom: 1px solid #f2f4f6;
+.tab-main .nav-tab {
     display: flex;
-    align-items: center;
-    padding-left: 15px;
-    font-weight: 500;
-    font-size: 14px;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.14);
+}
+
+.tab-main .nav-tab .nav-tab-button {
     cursor: pointer;
-}
-.select-container__wrap-items .select-container__select-option:hover {
-    background-color: #e2d8ee;
-    color: #fff;
-}
-.select-container .select-container__select-option {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-}
-.select-container__wrap-items {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    transition: max-height .2s;
-    overflow-y: auto;
-    max-height: 15rem;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-}
-.select-container__wrap-items--height {
-    max-height: 0;
-    transition: max-height .2s;
-}
-.ewallet-link-content .input-container {
-    width: 100%;
-    height: 45px;
-    margin: 16px 0;
-    background: #fcfcfc;
-    padding: 0 16px;
-    border-radius: 5px;
-    border: 1px solid #e2d8ee;
-}
-.select-container__wrap-items .select-container__select-option {
-    height: 45px;
-    border-bottom: 1px solid #f2f4f6;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
-}
-.ewallet-link-content .input-container .input-phone-wallet {
-    outline: 0;
-    border: none;
-    background: 0 0;
-    width: 100%;
-    height: 100%;
-    font-weight: 500;
-}
-.ewallet-link-content .term-text {
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
-    font-size: 16px;
-    line-height: 24px;
+    color: #AD8AD8;
+    outline: none;
+    text-transform: capitalize;
+    padding: 0 24px 20px 24px;
+}
+
+.tab-main .nav-tab .nav-tab-button.active {
+    border-bottom: 2px solid #7b35bb;
     color: #42236a;
-}
-.ewallet-link-content .term-text .show-term-btn {
-    color: #ff9800;
-    cursor: pointer;
-}
-.ewallet-link-content .btn-next {
-    display: block;
-    max-width: 344px;
-    width: 100%;
-    margin: 24px auto 0;
-}
-
-/*Change wallet */
-.modal-body{
-    padding: 16px 8px 24px 24px!important;
-    background: #ebebfa;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    overflow-y: auto;
-}
-
-.change-acc-modal-content-wrapper {
-    max-height: 500px;
-    overflow-y: auto;
-    padding-right: 16px;
-}
-.modal-body .account-info:last-child {
-    margin-bottom: 0;
-}
-
-.modal-body .account-info {
-    background: #fff;
-    border-radius: 5px;
-    padding: 12px 16px;
-    color: #42236a;
-    font-size: 14px;
     font-weight: 500;
-    margin-bottom: 16px;
 }
-.modal-body .account-info .acc-name {
-    margin-bottom: 7px;
-}
-.modal-body .account-info .acc-number {
-    line-height: 1.57;
-    margin-bottom: 11px;
-}
-.modal-body .account-info .acc-balance-line {
+.ewallet-home-content .my-wallet-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 }
-.modal-body .account-info .acc-balance-line .acc-balance {
-    font-size: 20px;
-    line-height: 1.4;
-    flex-grow: 1;
-    word-break: break-word;
-}
-.modal-body .account-info .acc-balance-line .change-acc-btn {
+.ewallet-home-content .my-wallet-list .wallet-item {
     display: flex;
+    max-width: 388px;
+    width: calc(50% - 12px);
+    min-height: 118px;
+    margin-bottom: 24px;
     align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    outline: 0;
+}
+.shadow-btn {
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
-.modal-body .account-info .acc-balance-line .change-acc-btn .text-change {
-    font-size: 16px;
-    margin-right: -4px;
-    font-weight: 400;
+.shadow-btn:hover {
+    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
+    text-decoration: none;
 }
-.modal-body .account-info .acc-balance-line .change-acc-btn img {
-    width: 27px;
-    height: 27px;
-    margin-right: -9px;
-}
-/* End change wallet */
 
-/* End Wallet Add Link*/
+.ewallet-home-content .my-wallet-list .wallet-item img {
+    width: 60px;
+    height: 60px;
+    margin: 0 16px 0 24px;
+    border-radius: 50%;
+}
+
+.ewallet-home-content .my-wallet-list .wallet-item .wallet-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #42236a;
+}
+/*Wallet*/
 
 
 
