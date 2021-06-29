@@ -10,7 +10,7 @@ function InquiryVatPage() {
                     <div className="acc-number">124234234</div>
                     <div className="acc-item">
                         <span className="amount">706,555 VND</span>
-                        <Link className="action" tabIndex={0} to="/inquiry/inquiry-vat-detail">Chọn</Link>
+                        <Link className="action" tabIndex={0} to="/inquiry/inquiry-vat/vat-detail">Chọn</Link>
                     </div>
                 </div>
             </div>
