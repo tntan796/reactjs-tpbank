@@ -25,6 +25,7 @@ import SavingCreatePackagePage from "./pages/main/saving/create-package/index";
 import ChangePackageNamePage from "./pages/main/saving/change-package-name/index";
 import NotFoundPage from "./pages/not-found/index";
 import OverseasStudyPage from "./pages/main/overseas-study/index";
+import InquiryGeneralPage from "./pages/inquiry/general/index";
 import InquiryPage from "./pages/inquiry/index";
 import SettingAuthMethodPage from "./pages/setting/auth-method/index";
 import SettingChangePasswordPage from "./pages/setting/change-password/index";
@@ -84,6 +85,7 @@ function App() {
                   <Route path="/wallet/add-link"> <AddLinkPage/> </Route>
                   <Route path="/wallet"> <WalletPage/> </Route>
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
+                  <Route path="/inquiry/inquiry-general/"> <InquiryGeneralPage/> </Route>
                   <Route path="/inquiry"> <InquiryPage/> </Route>
                   <Route path="/setting-upgrade"> <SettingUpgradePage/> </Route>
                   <Route path="/setting-user"> <SettingUserPage/> </Route>

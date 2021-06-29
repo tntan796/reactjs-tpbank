@@ -5,7 +5,6 @@ import InquirySavingPage from './saving/index';
 import InquiryLoan from './loan/index';
 import InquiryCreditCard from './credit-card/index';
 import InquiryTransferPage from './transfer/index';
-import InquiryGeneral from './general/index';
 import InquiryVatPage from './vat/index';
 import VatDetailPage from './vat/vat-detail/index';
 function InquiryPage() {
@@ -25,8 +24,7 @@ function InquiryPage() {
                     <Route path={`${match.path}/inquiry-saving`}> <InquirySavingPage /> </Route>
                     <Route path={`${match.path}/inquiry-loan`}> <InquiryLoan /> </Route>
                     <Route path={`${match.path}/inquiry-credit-card`}> <InquiryCreditCard /> </Route>
-                    <Route path={`${match.path}/inquiry-transfer`}> <InquiryTransferPage /> </Route>
-                    <Route path={`${match.path}/inquiry-general`}> <InquiryGeneral /> </Route>
+                    <Route path={`${match.path}/inquiry-transfer`}> <InquiryTransferPage /> </Route>=
                     <Route path={`${match.path}/inquiry-vat/vat-detail`}> <VatDetailPage /> </Route>
                     <Route path={`${match.path}/inquiry-vat`}> <InquiryVatPage /> </Route>
                     <Route path={match.path} exact> <InquiryAccount /> </Route>
