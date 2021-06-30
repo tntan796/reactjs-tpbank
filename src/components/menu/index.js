@@ -72,15 +72,15 @@ function MenuComponent() {
             <i className="fas fa-chevron-down" />
           </a>
           <div className="menu-item-list">
-            <MyCustomLink label="Nâng cấp tài khoản" to="/setting-upgrade" />
-            <MyCustomLink label="Thông tin tài khoản" to="/setting-user" />
-            <MyCustomLink label="Đổi mật khẩu" to="/setting-change-password" />
-            <MyCustomLink label="Phương thức xác thực GD" to="/setting-auth-method" />
-            <MyCustomLink label="Tài khoản liên kết với SĐT" to="/setting-default" />
-            <MyCustomLink label="Quản lý thiết bị" to="/setting-device-management" />
-            <MyCustomLink label="Câu hỏi thường gặp" to="/setting-faq" />
-            <MyCustomLink label="Liên hệ hỗ trợ" to="/setting-support" />
-            <MyCustomLink label="Giới thiệu bạn bè" to="/setting-referring" />
+            <MyCustomLink label="Nâng cấp tài khoản" to="/setting/setting-upgrade" />
+            <MyCustomLink label="Thông tin tài khoản" to="/setting/setting-user" />
+            <MyCustomLink label="Đổi mật khẩu" to="/setting/setting-change-password" />
+            <MyCustomLink label="Phương thức xác thực GD" to="/setting/setting-auth-method" />
+            <MyCustomLink label="Tài khoản liên kết với SĐT" to="/setting/setting-default" />
+            <MyCustomLink label="Quản lý thiết bị" to="/setting/setting-device-management" />
+            <MyCustomLink label="Câu hỏi thường gặp" to="/setting/setting-faq" />
+            <MyCustomLink label="Liên hệ hỗ trợ" to="/setting/setting-support" />
+            <MyCustomLink label="Giới thiệu bạn bè" to="/setting/setting-referring" />
           </div>
         </div>
       </div>

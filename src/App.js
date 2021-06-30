@@ -89,15 +89,15 @@ function App() {
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
                   <Route path="/inquiry/inquiry-general/"> <InquiryGeneralPage/> </Route>
                   <Route path="/inquiry"> <InquiryPage/> </Route>
-                  <Route path="/setting-upgrade"> <SettingUpgradePage/> </Route>
-                  <Route path="/setting-user"> <SettingUserPage/> </Route>
-                  <Route path="/setting-change-password"> <SettingChangePasswordPage/> </Route>
-                  <Route path="/setting-auth-method"> <SettingAuthMethodPage/> </Route>
-                  <Route path="/setting-default"> <SettingDefaultAccountPage/> </Route>
-                  <Route path="/setting-device-management"> <SettingDeviceManagementPage/> </Route>
-                  <Route path="/setting-faq"> <SettingFaqPage/> </Route>
-                  <Route path="/setting-support"> <SettingSupportPage/> </Route>
-                  <Route path="/setting-referring"> <SettingReferringPage/> </Route>
+                  <Route path="/setting/setting-upgrade"> <SettingUpgradePage/> </Route>
+                  <Route path="/setting/setting-user"> <SettingUserPage/> </Route>
+                  <Route path="/setting/setting-change-password"> <SettingChangePasswordPage/> </Route>
+                  <Route path="/setting/setting-auth-method"> <SettingAuthMethodPage/> </Route>
+                  <Route path="/setting/setting-default"> <SettingDefaultAccountPage/> </Route>
+                  <Route path="/setting/setting-device-management"> <SettingDeviceManagementPage/> </Route>
+                  <Route path="/setting/setting-faq"> <SettingFaqPage/> </Route>
+                  <Route path="/setting/setting-support"> <SettingSupportPage/> </Route>
+                  <Route path="/setting/setting-referring"> <SettingReferringPage/> </Route>
                   <Route path="/" exact> <TransferPage/> </Route>
                   <Route> <NotFoundPage/> </Route>
                 </Switch>
