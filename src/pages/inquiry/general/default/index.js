@@ -16,7 +16,7 @@ function GeneralDefaultPage() {
                     </Link>
                 </div>
                 <div className="content-card-link-item" tabIndex={0}>
-                    <Link className="content-card-link-item-container shadow-btn" to="inquiry-general/financial-overview">
+                    <Link className="content-card-link-item-container shadow-btn" to="inquiry-general/periodic">
                         <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_periodic.svg" />
                         <span>Danh sách hóa đơn/lệnh chuyển tiền</span>
                         <i className="fas fa-chevron-right" />
