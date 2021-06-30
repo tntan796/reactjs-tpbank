@@ -29,7 +29,7 @@ import InquiryGeneralPage from "./pages/inquiry/general/index";
 import InquiryPage from "./pages/inquiry/index";
 import SettingAuthMethodPage from "./pages/setting/auth-method/index";
 import SettingChangePasswordPage from "./pages/setting/change-password/index";
-import SettingDefaultAccountPage from "./pages/setting/default-account/index";
+import SettingDefaultPage from "./pages/setting/default/index";
 import SettingDeviceManagementPage from "./pages/setting/device-management/index";
 import SettingFaqPage from "./pages/setting/faq/index";
 import SettingReferringPage from "./pages/setting/referring/index";
@@ -93,7 +93,7 @@ function App() {
                   <Route path="/setting/setting-user"> <SettingUserPage/> </Route>
                   <Route path="/setting/setting-change-password"> <SettingChangePasswordPage/> </Route>
                   <Route path="/setting/setting-auth-method"> <SettingAuthMethodPage/> </Route>
-                  <Route path="/setting/setting-default"> <SettingDefaultAccountPage/> </Route>
+                  <Route path="/setting/setting-default"> <SettingDefaultPage/> </Route>
                   <Route path="/setting/setting-device-management"> <SettingDeviceManagementPage/> </Route>
                   <Route path="/setting/setting-faq"> <SettingFaqPage/> </Route>
                   <Route path="/setting/setting-support"> <SettingSupportPage/> </Route>
