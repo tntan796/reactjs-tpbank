@@ -1,3 +1,5 @@
+import './index.css';
+import { Link } from 'react-router-dom';
 function HeaderComponent() {
     return (
         <div className="page-header">
@@ -20,9 +22,11 @@ function HeaderComponent() {
                 </div>
             </div>
             <div className="user-info" id="globalUserInfo">
-                <i className="fas fa-bell" id="notification-btn" tabIndex={0}>
-                    <div className="notification-active-icon" />
-                </i>
+                <Link to="/notification">
+                    <i className="fas fa-bell" id="notification-btn" tabIndex={0}>
+                        <div className="notification-active-icon" />
+                    </i>
+                </Link>
                 <div id="user-btn">
                     <span className="avatar">
                         <div className="avatar-container" style={{ width: '30px', height: '30px' }}>

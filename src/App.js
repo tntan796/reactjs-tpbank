@@ -36,6 +36,7 @@ import SettingReferringPage from "./pages/setting/referring/index";
 import SettingSupportPage from "./pages/setting/support/index";
 import SettingUpgradePage from "./pages/setting/upgrade/index";
 import SettingUserPage from "./pages/setting/user/index";
+import NotificationPage from "./pages/notification/index";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -65,6 +66,7 @@ function App() {
             <div className="page-body">
               <div className="left">
               <Switch>
+                  <Route path="/notification"> <NotificationPage/> </Route>
                   <Route path="/transfer"> <TransferPage/> </Route>
                   <Route path="/bill/add-bill-recurring"> <AddBillRecurringPage/> </Route>
                   <Route path="/bill/bill-electric"> <BillElectricPage/> </Route>
