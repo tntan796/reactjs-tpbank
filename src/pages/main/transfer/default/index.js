@@ -37,12 +37,12 @@ function TransferDefaultPage() {
                     </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="/transfer-bath.html">
+                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/bath">
                         <div className="card-img">
                             <img alt="" src="/assets/images/icons/transfer/batch.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền theo danh sách</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <Link className="card-link" style={{ position: 'relative' }} to="/transfer/schedule">
