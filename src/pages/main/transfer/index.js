@@ -1,15 +1,16 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 function TransferPage() {
     return (
         <div className="content-wrap">
             <div className="list-card-link">
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a href="#" className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
                             <img alt="" src="/assets/images/icons/transfer/internal.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền trong ngân hàng</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <a PM className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
