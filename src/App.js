@@ -38,7 +38,7 @@ import SettingUpgradePage from "./pages/setting/upgrade/index";
 import SettingUserPage from "./pages/setting/user/index";
 import SettingNiceAccountPage from "./pages/setting/nice-account/index";
 import NotificationPage from "./pages/notification/index";
-
+import MainPage from './pages/main/index';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // function generateRouter() {
@@ -100,7 +100,7 @@ function App() {
                   <Route path="/setting/setting-faq"> <SettingFaqPage/> </Route>
                   <Route path="/setting/setting-support"> <SettingSupportPage/> </Route>
                   <Route path="/setting/setting-referring"> <SettingReferringPage/> </Route>
-                  <Route path="/" exact> <TransferPage/> </Route>
+                  <Route path="" exact> <MainPage/> </Route>
                   <Route> <NotFoundPage/> </Route>
                 </Switch>
               </div>

@@ -26,13 +26,13 @@ function MenuComponent() {
       </div>
       <div className="menu">
         <div className="menu-group">
-          <a className="menu-item parent active" href="/index.html">
+          <Link className="menu-item parent active" to="/main">
             <div className="menu-icon">
               <img alt="" src="/assets/images/main/home-active.png" />
             </div>
             <div className="menu-name">Trang chủ</div>
             <i className="fas fa-chevron-up" />
-          </a>
+          </Link>
           <div className="menu-item-list active">
             <MyCustomLink label="Chuyển khoản" to="/transfer" />
             <MyCustomLink label='Hoá đơn' to="/bill" />
@@ -46,13 +46,13 @@ function MenuComponent() {
           </div>
         </div>
         <div className="menu-group">
-          <a className="menu-item parent" href="/inquiry.html">
+          <Link className="menu-item parent" to="/inquiry">
             <div className="menu-icon">
               <img alt="" src="/assets/images/main/inquiry-inactive.png" />
             </div>
             <div className="menu-name">Tra cứu</div>
             <i className="fas fa-chevron-down" />
-          </a>
+          </Link>
           <div className="menu-item-list">
             <MyCustomLink label="Tài khoản" to="/inquiry/inquiry-account" />
             <MyCustomLink label="Tiết kiệm" to="/inquiry/inquiry-saving" />
@@ -64,13 +64,13 @@ function MenuComponent() {
           </div>
         </div>
         <div className="menu-group">
-          <a className="menu-item parent" href="/retail/vX/main/setting">
+          <Link className="menu-item parent" to="setting">
             <div className="menu-icon">
               <img alt="" src="/assets/images/main/setting-inactive.png" />
             </div>
             <div className="menu-name">Cài Đặt</div>
             <i className="fas fa-chevron-down" />
-          </a>
+          </Link>
           <div className="menu-item-list">
             <MyCustomLink label="Nâng cấp tài khoản" to="/setting/setting-upgrade" />
             <MyCustomLink label="Thông tin tài khoản" to="/setting/setting-user" />
