@@ -81,6 +81,7 @@ function MenuComponent() {
             <MyCustomLink label="Câu hỏi thường gặp" to="/setting/setting-faq" />
             <MyCustomLink label="Liên hệ hỗ trợ" to="/setting/setting-support" />
             <MyCustomLink label="Giới thiệu bạn bè" to="/setting/setting-referring" />
+            <MyCustomLink label="Mở tài khoản số đẹp" to="/setting/nice-account" />
           </div>
         </div>
       </div>

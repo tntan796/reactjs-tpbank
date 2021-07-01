@@ -36,6 +36,7 @@ import SettingReferringPage from "./pages/setting/referring/index";
 import SettingSupportPage from "./pages/setting/support/index";
 import SettingUpgradePage from "./pages/setting/upgrade/index";
 import SettingUserPage from "./pages/setting/user/index";
+import SettingNiceAccountPage from "./pages/setting/nice-account/index";
 import NotificationPage from "./pages/notification/index";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -89,6 +90,7 @@ function App() {
                   <Route path="/overseas-study"> <OverseasStudyPage/> </Route>
                   <Route path="/inquiry/inquiry-general/"> <InquiryGeneralPage/> </Route>
                   <Route path="/inquiry"> <InquiryPage/> </Route>
+                  <Route path="/setting/nice-account"> <SettingNiceAccountPage/> </Route>
                   <Route path="/setting/setting-upgrade"> <SettingUpgradePage/> </Route>
                   <Route path="/setting/setting-user"> <SettingUserPage/> </Route>
                   <Route path="/setting/setting-change-password"> <SettingChangePasswordPage/> </Route>
