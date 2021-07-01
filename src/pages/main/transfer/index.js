@@ -13,28 +13,28 @@ function TransferPage() {
                     </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a PM className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
                             <img alt="" src="/assets/images/icons/transfer/interbank.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền liên ngân hàng</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a href="#" className="card-link" style={{ position: 'relative' }} href="/transfer-internal.html">
+                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
                             <img alt="" src="/assets/images/icons/transfer/napas.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền qua thẻ ATM</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a href="/transfer-stock.html" className="card-link" style={{ position: 'relative' }}>
+                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/stock">
                         <div className="card-img">
                             <img alt="" src="/assets/images/icons/transfer/icons-stock.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền chứng khoán</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <a className="card-link" style={{ position: 'relative' }} href="/transfer-bath.html">

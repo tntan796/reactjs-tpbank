@@ -4,6 +4,7 @@ import FooterComponent from "./components/footer/index";
 import HeaderComponent from "./components/header/index";
 import LoadingCompnent from "./components/loading/index";
 import QuickLinkComponent from "./components/quick-link/index";
+import TransferStockPage from "./pages/main/transfer/stock/index";
 import TransferInternalPage from "./pages/main/transfer/internal/index";
 import TransferPage from "./pages/main/transfer/index";
 import BillPage from "./pages/main/bill/index";
@@ -69,6 +70,7 @@ function App() {
               <div className="left">
               <Switch>
                   <Route path="/notification"> <NotificationPage/> </Route>
+                  <Route path="/transfer/stock"> <TransferStockPage/> </Route>
                   <Route path="/transfer/internal"> <TransferInternalPage/> </Route>
                   <Route path="/transfer"> <TransferPage/> </Route>
                   <Route path="/bill/add-bill-recurring"> <AddBillRecurringPage/> </Route>
