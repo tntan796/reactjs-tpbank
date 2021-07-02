@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-function CartItemComponent(link, title, icon) {
+function CartItemComponent({link, title, icon}) {
     return (
         <div className="card-link-wrapper card-customize shadow-btn">
             <Link className="card-link" style={{ position: 'relative' }} to={link}>

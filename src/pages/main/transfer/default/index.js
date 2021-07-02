@@ -1,18 +1,23 @@
-import { Link } from 'react-router-dom';
+import { TransferCards } from '../../../../common/mock-data/main.mockdata';
+import CartItemComponent from '../../../../components/card-item/index';
 import './index.css';
 function TransferDefaultPage() {
+    const cards = TransferCards;
+    const cartListElm = cards.map(card => (
+        <CartItemComponent
+            link={card.link}
+            title={card.title}
+            icon={card.icon}
+            altIcon={card.altIcon}>
+        </CartItemComponent>
+    ));
     return (
         <div className="content-wrap">
             <div className="list-card-link">
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
-                        <div className="card-img">
-                            <img alt="internal" src="/assets/images/icons/transfer/internal.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền trong ngân hàng</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
+                {
+                    cartListElm
+                }
+                {/* <div className="card-link-wrapper card-customize shadow-btn">
                     <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
                             <img alt="interbank" src="/assets/images/icons/transfer/interbank.png" />
@@ -59,7 +64,7 @@ function TransferDefaultPage() {
                         </div>
                         <div className="card-name card-color">Mẫu chuyển tiền</div>
                     </a>
-                </div>
+                </div> */}
             </div>
             <div className="transfer-detail">
                 <div className="list-mobile list-mobile-hidden text-link"> Xem danh bạ <span>
