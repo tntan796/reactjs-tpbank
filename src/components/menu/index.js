@@ -46,7 +46,7 @@ function MenuComponent() {
           </div>
         </div>
         <div className="menu-group">
-          <Link className="menu-item parent" to="/inquiry">
+          <Link className="menu-item parent" to="/inquiry/main">
             <div className="menu-icon">
               <img alt="" src="/assets/images/main/inquiry-inactive.png" />
             </div>
@@ -64,7 +64,7 @@ function MenuComponent() {
           </div>
         </div>
         <div className="menu-group">
-          <Link className="menu-item parent" to="setting">
+          <Link className="menu-item parent" to="/setting">
             <div className="menu-icon">
               <img alt="" src="/assets/images/main/setting-inactive.png" />
             </div>
