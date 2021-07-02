@@ -3,68 +3,20 @@ import CartItemComponent from '../../../../components/card-item/index';
 import './index.css';
 function TransferDefaultPage() {
     const cards = TransferCards;
-    const cartListElm = cards.map(card => (
+    const cartListElm = cards.map((card, index) => (
         <CartItemComponent
+            key={index}
             link={card.link}
             title={card.title}
             icon={card.icon}
+            other={card.other}
             altIcon={card.altIcon}>
         </CartItemComponent>
     ));
     return (
         <div className="content-wrap">
             <div className="list-card-link">
-                {
-                    cartListElm
-                }
-                {/* <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
-                        <div className="card-img">
-                            <img alt="interbank" src="/assets/images/icons/transfer/interbank.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền liên ngân hàng</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
-                        <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/napas.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền qua thẻ ATM</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/stock">
-                        <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/icons-stock.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền chứng khoán</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/bath">
-                        <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/batch.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền theo danh sách</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <Link className="card-link" style={{ position: 'relative' }} to="/transfer/schedule">
-                        <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/schedule.png" />
-                        </div>
-                        <div className="card-name card-color">Chuyển tiền theo lịch</div>
-                    </Link>
-                </div>
-                <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="/#" data-toggle="modal" data-target="#transfer-money">
-                        <div className="card-img">
-                            <img alt="form" src="/assets/images/icons/transfer/form.png" />
-                        </div>
-                        <div className="card-name card-color">Mẫu chuyển tiền</div>
-                    </a>
-                </div> */}
+                { cartListElm }
             </div>
             <div className="transfer-detail">
                 <div className="list-mobile list-mobile-hidden text-link"> Xem danh bạ <span>

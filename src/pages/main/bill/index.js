@@ -1,7 +1,18 @@
 import './index.css';
 import { Link } from "react-router-dom";
-  
+import { BillCards } from '../../../common/mock-data/main.mockdata';
+import CartItemComponent from '../../../components/card-item/index';
 function BillPage() {
+    const cardsElm = BillCards.map((card, index) => (
+        <CartItemComponent
+            key={index}
+            link={card.link}
+            title={card.title}
+            icon={card.icon}
+            other={card.other}
+            altIcon={card.altIcon}>
+        </CartItemComponent>
+    ));
     return (
         <div className="content-wrap">
             <div className="search-area">
@@ -22,28 +33,15 @@ function BillPage() {
                     </div>
                 </div>
                 <div className="list-card-link">
-                    <div className="card-link-wrapper card-customize shadow-btn">
-                        <Link className="card-link" style={{ position: 'relative' }} to="/bill/bill-electric">
-                            <div className="card-img">
-                                <img alt="" src="/assets/images/icons/bill/electricity.png" />
-                            </div>
-                            <div className="card-name card-color">Điện</div>
-                        </Link>
-                    </div>
+                    {cardsElm}
+                   
+                    {/* 
                     <div className="card-link-wrapper card-customize shadow-btn">
                         <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
-                                <img alt="" src="/assets/images/icons/bill/water.png" />
+                                <img alt="" src="" />
                             </div>
-                            <div className="card-name card-color">Nước</div>
-                        </a>
-                    </div>
-                    <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
-                            <div className="card-img">
-                                <img alt="" src="/assets/images/icons/bill/landline-phone.png" />
-                            </div>
-                            <div className="card-name card-color">Điện thoại cố định</div>
+                            <div className="card-name card-color"></div>
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
@@ -110,7 +108,7 @@ function BillPage() {
                             </div>
                             <div className="card-name card-color">Viện phí</div>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
                 <div style={{ background: '#E6E9EE', width: '100%', height: '3px', marginBottom: '30px' }}>
                 </div>

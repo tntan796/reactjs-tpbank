@@ -11,25 +11,25 @@ function TransferSchedulePage() {
                                 <span className="header-note">Chọn loại chuyển tiền để cài đặt lịch thực
                                     hiện</span>
                             </div>
-                            <div className="card-option-schedule mb-3 mr-3" onclick="window.location.replace('/transfer-schedule-detail.html');">
+                            <div className="card-option-schedule mb-3 mr-3">
                                 <span>
                                     <i className="image-type internal" />
                                 </span>
                                 <span className="text-type">Chuyển tiền trong TPBank</span>
                             </div>
-                            <div className="card-option-schedule mb-3" onclick="window.location.replace('/transfer-schedule-detail.html');">
+                            <div className="card-option-schedule mb-3">
                                 <span>
                                     <i className="image-type external" />
                                 </span>
                                 <span className="text-type">Chuyển tiền liên ngân hàng</span>
                             </div>
-                            <div className="card-option-schedule mb-3 mr-3" onclick="window.location.replace('/transfer-schedule-detail.html');">
+                            <div className="card-option-schedule mb-3 mr-3">
                                 <span>
                                     <i className="image-type atm" />
                                 </span>
                                 <span className="text-type">Chuyển tiền qua thẻ ATM</span>
                             </div>
-                            <div className="card-option-schedule" onclick="window.location.replace('/transfer-schedule-detail.html');">
+                            <div className="card-option-schedule">
                                 <span>
                                     <i className="image-type stock" />
                                 </span>

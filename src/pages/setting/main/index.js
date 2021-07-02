@@ -8,7 +8,7 @@ function MainPage() {
                     <div className="setting__wrap-card">
                         <a className="setting__card-setting" tabIndex={0} href="/setting-upgrade.html">
                             <div className="card-setting-container shadow-btn">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Profile.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Profile.svg" alt="Icons_Profile"/>
                                 <div className="card-setting-container__content">
                                     <div className="wrap-update-account">
                                         <div className="setting__upgrade-account-title title-card">
@@ -22,7 +22,7 @@ function MainPage() {
                     <div className="setting__wrap-card">
                         <a className="setting__card-setting" tabIndex={0} href="/setting-change-password.html">
                             <div className="card-setting-container shadow-btn">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/unlock.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/unlock.svg"  alt="unlock"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Đổi mật khẩu</div>
                                 </div>
@@ -31,7 +31,7 @@ function MainPage() {
                         </a>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-auth-method.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/shield.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/shield.svg"  alt="shield"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Phương thức xác thực giao dịch</div>
                                 </div>
@@ -40,16 +40,16 @@ function MainPage() {
                         </div>
                         <div className="setting__card-setting" routerlink="/main/setting/user" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-user.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Badge.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Badge.svg"  alt="Icons_Badge"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Thông tin tài khoản</div>
                                 </div>
-                                <i className="card-setting-container__icon-right fas fa-chevron-right" />
+                                <i className="card-setting-container__icon-right fas fa-chevron-right"  alt="Icons_Profile"/>
                             </a>
                         </div>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-default.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Default_Account.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Default_Account.svg"  alt="Icons_Default_Account"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Tài khoản liên kết với số điện thoại
                                     </div>
@@ -59,7 +59,7 @@ function MainPage() {
                         </div>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-device-management.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Manage_Device.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Manage_Device.svg"  alt="Icons_Manage_Device"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Quản lý thiết bị</div>
                                 </div>
@@ -68,7 +68,7 @@ function MainPage() {
                         </div>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="./setting-sms-banking.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_SMS_Banking.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_SMS_Banking.svg"  alt="Icons_SMS_Banking"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">SMS Banking</div>
                                 </div>
@@ -82,7 +82,7 @@ function MainPage() {
                     <div className="setting__wrap-card">
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-faq.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Question _ Outline.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Question _ Outline.svg"  alt="Icons_Question _ Outline"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Câu hỏi thường gặp</div>
                                 </div>
@@ -91,7 +91,7 @@ function MainPage() {
                         </div>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-support.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Phone_Calling.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Phone_Calling.svg"  alt="Icons_Phone_Calling"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Liên hệ hỗ trợ</div>
                                 </div>
@@ -100,7 +100,7 @@ function MainPage() {
                         </div>
                         <div className="setting__card-setting" tabIndex={0}>
                             <a className="card-setting-container shadow-btn" href="/setting-referring.html">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Share.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Share.svg"  alt="Icons_Share"/>
                                 <div className="card-setting-container__content">
                                     <div className="title-card">Giới thiệu bạn bè</div>
                                 </div>
@@ -114,7 +114,7 @@ function MainPage() {
                     <div className="setting__wrap-card">
                         <div className="setting__card-setting setting__card-setting-style-1">
                             <div className="card-setting-container shadow-btn">
-                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_World.svg" />
+                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_World.svg" alt="Icons_World" />
                                 <div className="card-setting-container__content">
                                     <form className="setting__wrap-lanuage ng-untouched ng-pristine ng-valid" noValidate>
                                         <div className="setting__language-title title-card">Ngôn ngữ
