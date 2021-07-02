@@ -69,16 +69,6 @@
     top: 52px;
 }
 
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
-
 .recurring-item-add .icon-add-recurring {
     width: 15px;
     height: 44px;

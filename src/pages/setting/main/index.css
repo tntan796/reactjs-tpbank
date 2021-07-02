@@ -11,14 +11,7 @@
     margin: 15px 0;
     cursor: pointer;
 }
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
+
 .card-setting-container {
     display: flex;
     width: 100%;
@@ -68,14 +61,7 @@
     margin: 15px 0;
     cursor: pointer;
 }
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
+
 .card-setting-container {
     display: flex;
     width: 100%;

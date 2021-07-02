@@ -5,11 +5,6 @@
     position: relative;
 }
 
-.list-card-link {
-    margin-right: -16px;
-    margin-top: 5px;
-}
-
 .container-bill .container-list-provider .list-provider .list-card-link {
     padding: 0;
     width: 100%;
@@ -29,17 +24,6 @@
     margin-bottom: 23px;
     padding: 0;
     max-width: 100%;
-}
-
-.list-card-link .card-link-wrapper .card-link {
-    display: block;
-    background-color: #ffffff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-transform: capitalize;
-    height: 100px;
-    overflow: hidden;
 }
 
 .container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider {

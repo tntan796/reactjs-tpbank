@@ -87,9 +87,6 @@
 .point-card .point-image .avatar {
     display: inline-block;
 }
-.avatar-container {
-    display: inline-block;
-}
 .point-card .point-image .rank {
     font-size: 14px;
     font-weight: 600;
@@ -462,15 +459,6 @@
     text-decoration-line: underline;
 }
 
-.text-link {
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #ff9800;
-}
 .gift-info .gift-detail .wrap-button .exchange-gift .common-image {
     height: 20px;
     width: 20px;

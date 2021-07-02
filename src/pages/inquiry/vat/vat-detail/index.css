@@ -37,14 +37,7 @@
     overflow: auto;
     padding: 0 12px;
 }
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
+
 .list-account-item {
     display: flex;
     padding-bottom: 12px;
@@ -86,10 +79,6 @@
 .transaction-search .search-input {
     padding: 0 20px;
     position: relative;
-}
-.form-control {
-    color: #42236a;
-    font-size: 14px;
 }
 .transaction-search .search-input input[type=text] {
     border: 1px solid #e2d8ee;

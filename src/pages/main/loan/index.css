@@ -1,43 +1,8 @@
-.list-card-link {
-    margin-right: -16px;
-    margin-top: 5px;
-}
-
-.card-customize {
-    display: inline-grid;
-    margin-right: 16px;
-    margin-bottom: 16px;
-}
 .list-card-link .card-link-wrapper {
     display: inline-block;
     width: 33.33%;
     max-width: 256px;
 }
-.list-card-link .card-link-wrapper .card-link {
-    display: block;
-    background-color: #ffffff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-transform: capitalize;
-    height: 100px;
-    overflow: hidden;
-}
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
-.list-card-link .card-link-wrapper .card-link .card-name {
-    margin-top: 5px;
-}
-.card-color {
-    color: #42236a;
-}
-
 
 @media screen and (max-width: 1130px) {
     .card-customize:nth-child(odd) {

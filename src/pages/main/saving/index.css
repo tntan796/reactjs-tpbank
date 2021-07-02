@@ -1,15 +1,3 @@
-
-/*Saving*/
-.page-body .left {
-    flex-grow: 1;
-    margin-right: 30px;
-}
-
-.page-body .left .content-wrap {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .saving-home-normal .saving-action-inquiry {
     width: 400px;
     min-height: 77px;

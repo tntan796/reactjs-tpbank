@@ -274,14 +274,6 @@ label {
 .saving-resume .wrap-accounts .select-container .select-container__select-option .account-detail span {
     font-weight: 400;
 }
-.btn-primary:disabled, .btn-primary [disabled] {
-    border: none;
-    background-image: none !important;
-    background-color: #e2d8ee !important;
-    color: #ffffff !important;
-    pointer-events: none !important;
-    opacity: 1;
-}
 /*End Autoroll-settings*/
 
 

@@ -116,62 +116,6 @@
     font-weight: bold;
 }
 /*End Transfer template*/
-
-
-
-
-/*List card*/
-.list-card-link {
-    margin-right: -16px;
-    margin-top: 5px;
-}
-
-.card-customize {
-    display: inline-grid;
-    margin-right: 16px;
-    margin-bottom: 16px;
-}
-
-.list-card-link .card-link-wrapper {
-    display: inline-block;
-    width: 31%;
-    max-width: 256px;
-}
-
-.list-card-link .card-link-wrapper .card-link {
-    display: block;
-    background-color: #ffffff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-transform: capitalize;
-    height: 100px;
-    overflow: hidden;
-}
-
-a:not([href]):not([tabindex]) {
-    color: inherit;
-    text-decoration: none;
-}
-
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
-}
-
-.list-card-link .card-link-wrapper .card-link .card-name {
-    margin-top: 5px;
-}
-
-.card-color {
-    color: #42236a;
-}
-
 /*End List card*/
 
 
@@ -196,15 +140,6 @@ a:not([href]):not([tabindex]) {
     display: none;
 }
 
-.text-link {
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #ff9800;
-}
 .icon-right {
     background-position: center;
     background-repeat: no-repeat;

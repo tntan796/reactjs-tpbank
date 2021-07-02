@@ -150,10 +150,6 @@
     justify-content: center;
 }
 
-.avatar-container {
-    display: inline-block;
-}
-
 .account-card .image-section .avatar-container {
     width: 50px;
     border-radius: 50%;

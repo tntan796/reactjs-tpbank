@@ -32,15 +32,6 @@
     font-weight: 500;
     text-transform: capitalize;
 }
-.text-link {
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #ff9800;
-}
 .content-detail-top {
     width: 100%;
     max-width: 496px;

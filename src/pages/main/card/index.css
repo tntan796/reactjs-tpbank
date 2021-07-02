@@ -1,12 +1,4 @@
 
-.swiper-container {
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-}
 .card-slider-container {
     width: 100%;
     max-width: 800px;
@@ -21,19 +13,7 @@
 .card-slider-container .swiper-wrapper {
     height: 200px;
 }
-.swiper-slide {
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    -webkit-transition-property: -webkit-transform;
-    transition-property: -webkit-transform;
-    -o-transition-property: transform;
-    transition-property: transform;
-    transition-property: transform,-webkit-transform;
-}
+
 .card-slider-container .swiper-wrapper .card-slider-slide {
     box-sizing: border-box;
     width: 316px;
@@ -80,28 +60,11 @@
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
     background: center/cover no-repeat #ccc;
-}
-.swiper-button-next, .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    width: 27px;
-    height: 44px;
-    margin-top: -22px;
-    z-index: 10;
-    cursor: pointer;
-    background-size: 27px 44px;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
     background-image: url('../../../common/images/card/prev.svg');
     left: 10px;
     right: auto;
-}
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-    opacity: .35;
-    cursor: auto;
-    pointer-events: none;
 }
 .card-slider-container .btn-slider {
     width: 44px;
@@ -129,18 +92,6 @@
 .card-slider-container .btn-slider.swiper-button-disabled, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-left-blur, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-right-blur {
     display: none;
 }
-.swiper-button-next, .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    width: 27px;
-    height: 44px;
-    margin-top: -22px;
-    z-index: 10;
-    cursor: pointer;
-    background-size: 27px 44px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
     background-image: url('../../../common/images/card/next.svg');
     right: 10px;
@@ -166,41 +117,8 @@
     background-image: linear-gradient(to right,rgba(255,255,255,.75),rgba(235,235,250,.95) 41%,#ebebfa);
     z-index: 2;
 }
-.swiper-pagination {
-    position: absolute;
-    text-align: center;
-    -webkit-transition: .3s opacity;
-    -o-transition: .3s opacity;
-    transition: .3s opacity;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    z-index: 10;
-}
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-}
 .card-slider-container .swiper-pagination {
     bottom: 0;
-}
-.swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    border-radius: 100%;
-    background: #000;
-    opacity: .2;
-}
-.swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #007aff;
-}
-.swiper-pagination-clickable .swiper-pagination-bullet {
-    cursor: pointer;
-}
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 4px;
 }
 .card-slider-container .button-pag .swiper-pagination-bullet {
     background: #e2d8ee;
@@ -210,31 +128,9 @@
     opacity: 1;
     background: #42236a;
 }
-.swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    border-radius: 100%;
-    background: #000;
-    opacity: .2;
-}
-.swiper-pagination-clickable .swiper-pagination-bullet {
-    cursor: pointer;
-}
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 4px;
-}
 .card-slider-container .button-pag .swiper-pagination-bullet {
     background: #e2d8ee;
     opacity: 1;
-}
-.swiper-container .swiper-notification {
-    position: absolute;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    opacity: 0;
-    z-index: -1000;
 }
 .card-detail {
     position: relative;
@@ -255,14 +151,6 @@
     display: block;
     justify-content: unset;
     width: auto;
-}
-.shadow-btn {
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
-    cursor: pointer;
-}
-.shadow-btn:hover {
-    box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
-    text-decoration: none;
 }
 .card-detail .btn-area .btn-action .btn-icon {
     width: 60px;
