@@ -20,7 +20,7 @@ function MenuComponent() {
   return (
     <div className="left" id="main-menu">
       <div className="main-logo">
-        <a href="https://tpb.vn" target="_blank">
+        <a href="https://tpb.vn" target="_blank"  rel="noreferrer">
           <img alt="" src="/assets/images/main/logo.png" />
         </a>
       </div>

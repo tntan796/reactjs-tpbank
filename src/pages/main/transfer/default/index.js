@@ -7,7 +7,7 @@ function TransferDefaultPage() {
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/internal.png" />
+                            <img alt="internal" src="/assets/images/icons/transfer/internal.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền trong ngân hàng</div>
                     </Link>
@@ -15,7 +15,7 @@ function TransferDefaultPage() {
                 <div className="card-link-wrapper card-customize shadow-btn">
                     <Link className="card-link" style={{ position: 'relative' }} to="/transfer/internal">
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/interbank.png" />
+                            <img alt="interbank" src="/assets/images/icons/transfer/interbank.png" />
                         </div>
                         <div className="card-name card-color">Chuyển tiền liên ngân hàng</div>
                     </Link>
@@ -53,9 +53,9 @@ function TransferDefaultPage() {
                     </Link>
                 </div>
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a className="card-link" style={{ position: 'relative' }} href="#" data-toggle="modal" data-target="#transfer-money">
+                    <a className="card-link" style={{ position: 'relative' }} href="/#" data-toggle="modal" data-target="#transfer-money">
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/transfer/form.png" />
+                            <img alt="form" src="/assets/images/icons/transfer/form.png" />
                         </div>
                         <div className="card-name card-color">Mẫu chuyển tiền</div>
                     </a>
@@ -69,7 +69,7 @@ function TransferDefaultPage() {
                 <div className="transfer-body">
                     <div className="empty-favorites text-center">
                         <span className="title">Danh sách chuyển tiền ưa thích</span>
-                        <img alt="" className="mt-3" src="/assets/images/icons/transfer/contact-list.png" />
+                        <img alt="contact-list" className="mt-3" src="/assets/images/icons/transfer/contact-list.png" />
                         <span className="text-center mt-2 content">Danh sách còn trống.
                             <span className="content-action hover-action" data-toggle="modal" data-target="#app-favorites">Bấm vào đây </span> để thêm tài
                             khoản thường xuyên sử dụng giao dịch</span>

@@ -14,7 +14,7 @@ function AddLinkPage() {
                                 <span className="acc-balance">706,555VND</span>
                                 <span className="change-acc-btn">
                                     <span className="text-change text-link" data-toggle="modal" data-target="#ewallet-choose-account-wrap">Đổi</span>
-                                    <img alt="" src="/assets/images/icons/wallet/right.svg" />
+                                    <img alt="right" src="/assets/images/icons/wallet/right.svg" />
                                 </span>
                             </div>
                         </div>
@@ -58,10 +58,8 @@ function AddLinkPage() {
                     </form>
                     <div className="term-text">
                         <span>Bằng việc xác nhận quý khách sẽ đồng ý với </span>
-                        <a className="show-term-btn" href="https://tpb.vn/wps/wcm/connect/2ac2cee8-2604-487a-a3e1-f7b3493076a9/%C4%90K%C4%90K+Li%C3%AAn+k%E1%BA%BFt+V%C3%AD.pdf?MOD=AJPERES&CVID=mVuH7CU&CVID=mV9imF-" target="_blank">Điều khoản và chính sách sử dụng</a>
-                        <span> của
-                            TPBank
-                        </span>
+                        <a className="show-term-btn" href="https://tpb.vn/wps/wcm/connect/2ac2cee8-2604-487a-a3e1-f7b3493076a9/%C4%90K%C4%90K+Li%C3%AAn+k%E1%BA%BFt+V%C3%AD.pdf?MOD=AJPERES&CVID=mVuH7CU&CVID=mV9imF-" rel="noreferrer" target="_blank">Điều khoản và chính sách sử dụng</a>
+                        <span> của TPBank </span>
                     </div>
                     <button className="btn btn-primary btn-next" disabled>Tiếp tục</button>
                 </div>

@@ -18,7 +18,7 @@ function TransferInternalPage() {
                                 <div className="input searching">
                                     <input className="input-customize ng-untouched ng-pristine ng-valid" formcontrolname="object" maxLength={31} placeholder="Nhập số tài khoản/số điện thoại" />
                                     <div>
-                                        <img className="searching-icon" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-contact.svg" />
+                                        <img className="searching-icon" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-contact.svg" alt="icons-contact"/>
                                     </div>
                                     <div className="dropdown">
                                         <div className="searching-input">
@@ -42,7 +42,7 @@ function TransferInternalPage() {
                                             </div>
                                             <div>
                                                 <div className="p-3 label-color fw-500 d-flex flex-nowrap align-items-center" style={{ borderTop: '1px solid #E6E9EE', borderBottom: '1px solid #E6E9EE' }}>
-                                                    <img src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_history.svg" />
+                                                    <img src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_history.svg" alt="ic_history"/>
                                                     <span className="ml-2">Tài khoản chuyển gần đây</span>
                                                 </div>
                                                 <div className="customers">
@@ -63,7 +63,7 @@ function TransferInternalPage() {
                                                 </div>
                                             </div>
                                             <div className="p-3 label-color fw-500 d-flex flex-nowrap align-items-center" style={{ borderTop: '1px solid #E6E9EE', borderBottom: '1px solid #E6E9EE' }}>
-                                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_list.svg" />
+                                                <img src="https://ebank.tpb.vn/retail/vX/assets/icons/ic_list.svg" alt="ic_list"/>
                                                 <span className="ml-2">Tài khoản đã lưu</span>
                                             </div>
                                             <div>
@@ -88,7 +88,7 @@ function TransferInternalPage() {
                                         <input formcontrolname="money" placeholder="Nhập số tiền VND" maxLength={19} className="ng-untouched ng-pristine ng-invalid" />
                                         <p className="text-color__orange text-bold"> Hạn mức
                                             <span className="tooltip">
-                                                <img className="icon-money-qanda" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-question-fill.svg" />
+                                                <img className="icon-money-qanda" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-question-fill.svg" alt="icons-question-fill"/>
                                                 <span className="tooltip-text">Hạn mức tối đa/lần:
                                                     50,000,000 VND
                                                     Hạn mức tối đa/ngày: 100,000,000 VND</span>
@@ -147,7 +147,7 @@ function TransferInternalPage() {
                                         <div className="common-config-button">
                                             <div>
                                                 <span className="text-link text-link-size"> Cài đặt lịch
-                                                    <img className="common-image" src="https://ebank.tpb.vn/retail/vX/assets/icons/right.svg" /></span>
+                                                    <img className="common-image" src="https://ebank.tpb.vn/retail/vX/assets/icons/right.svg" alt="right"/></span>
                                             </div>
                                         </div>
                                     </div>

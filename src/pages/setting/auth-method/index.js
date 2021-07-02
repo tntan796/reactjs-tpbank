@@ -6,7 +6,7 @@ function SettingAuthMethodPage() {
                 <div className="button-right-header">
                     <div className="content">
                         <div style={{ cursor: 'pointer' }}> Chính sách Phương Thức Xác Thực
-                            <img className="icon-rule" data-toggle="modal" data-target="#auth-policy" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-question-fill.svg" />
+                            <img className="icon-rule" data-toggle="modal" data-target="#auth-policy" src="https://ebank.tpb.vn/retail/vX/assets/icons/icons-question-fill.svg" alt="icons-question-fill"/>
                         </div>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ function SettingAuthMethodPage() {
                             <div className="content-container child-2-side fw-500">
                                 <div className="txt-16">
                                     <div>
-                                        <img className="mr-1" src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/sms-otp.svg" /> SMS/OTP
+                                        <img className="mr-1" src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/sms-otp.svg" alt="sms-otp"/> SMS/OTP
                                     </div>
                                 </div>
                                 <div>
@@ -41,7 +41,7 @@ function SettingAuthMethodPage() {
                     </div>
                     <div className="rounded-bottom bg-light px-4 py-3 child-2-side" style={{ marginTop: '1px' }}>
                         <div className="value-color">
-                            <img className="mr-1" src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/pin-code.svg" /> Mã PIN </div>
+                            <img className="mr-1" src="https://ebank.tpb.vn/retail/vX/assets/icons/setting/pin-code.svg" alt="pin-code"/> Mã PIN </div>
                         <div className="text-secondary">
                             <i className="fas fa-check" style={{ fontSize: '20px' }}>
                             </i>
@@ -92,10 +92,10 @@ function SettingAuthMethodPage() {
                                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                                         <span style={{ marginTop: '16px', marginBottom: '8px' }}> Download Ứng dụng eToken tại đây </span>
                                         <div className="wrap-link">
-                                            <a href="#" target="_blank">
-                                                <img src="https://ebank.tpb.vn/retail/vX/assets/images/download-ios.svg" style={{ marginRight: '16px' }} /></a>
-                                            <a href="#" target="_blank">
-                                                <img src="https://ebank.tpb.vn/retail/vX/assets/images/download-android.svg" />
+                                            <a href="/" target="_blank">
+                                                <img src="https://ebank.tpb.vn/retail/vX/assets/images/download-ios.svg" style={{ marginRight: '16px' }} alt="download-ios"/></a>
+                                            <a href="/" target="_blank">
+                                                <img src="https://ebank.tpb.vn/retail/vX/assets/images/download-android.svg" alt="download-android"/>
                                             </a>
                                         </div>
                                     </div>

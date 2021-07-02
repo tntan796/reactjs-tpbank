@@ -23,7 +23,7 @@ function SettingReferringPage() {
             </div>
             <div className="referral__noti">
                 <span className="referral__noti-text">Đã sao chép vào bộ nhớ tạm</span>
-                <img className="referral__noti-close" src="https://ebank.tpb.vn/retail/vX/assets/images/setting/icons-close-line.svg" />
+                <img className="referral__noti-close" src="https://ebank.tpb.vn/retail/vX/assets/images/setting/icons-close-line.svg" alt="icons-close-line"/>
             </div>
         </div>
     );

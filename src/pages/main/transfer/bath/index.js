@@ -25,8 +25,8 @@ function TransferBathPage() {
                                 theo danh sách. </span>
                         </div>
                         <div className="row">
-                            <a className="file-upload">
-                                <img className="icon-download" src="/assets/images/icons/transfer/Icons_DownLoad.svg" />
+                            <a className="file-upload" href="!#">
+                                <img className="icon-download" src="/assets/images/icons/transfer/Icons_DownLoad.svg" alt="Icons_DownLoad"/>
                                 Tải xuống file mẫu </a>
                         </div>
                         <div className="row">

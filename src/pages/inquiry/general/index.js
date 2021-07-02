@@ -1,5 +1,5 @@
 import './index.css';
-import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
+import { Switch, Route, useRouteMatch } from 'react-router-dom';
 import GeneralDefaultPage from './default/index';
 import FinancialOverviewPage from './financial-overview';
 import PersonInfoPage from './person-info/index';

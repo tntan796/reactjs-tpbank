@@ -11,57 +11,57 @@ function AddBillRecurringPage() {
             </div>
             <div className="list-card-link">
                 <div className="card-link-wrapper card-customize shadow-btn">
-                    <a href="#" className="card-link" style={{ position: 'relative' }} href="bill-add-bill-electric.html">
+                    <a href="!#" className="card-link" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/electricity.svg" />
+                            <img alt="electricity" src="/assets/images/icons/bill/bill-add-bill/electricity.svg" />
                         </div>
                         <div className="card-name card-color">Điện</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/water.svg" />
+                            <img alt="water" src="/assets/images/icons/bill/bill-add-bill/water.svg" />
                         </div>
                         <div className="card-name card-color">Nước</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/landline-phone.svg" />
+                            <img alt="landline-phone" src="/assets/images/icons/bill/bill-add-bill/landline-phone.svg" />
                         </div>
                         <div className="card-name card-color">Điện thoại cố định</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/phone-bill.svg" />
+                            <img alt="phone-bill" src="/assets/images/icons/bill/bill-add-bill/phone-bill.svg" />
                         </div>
                         <div className="card-name card-color">Điện thoại di động trả sau</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/adsl-internet.svg" />
+                            <img alt="adsl-internet" src="/assets/images/icons/bill/bill-add-bill/adsl-internet.svg" />
                         </div>
                         <div className="card-name card-color">Cước Internet ADSL</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/cable-tv.svg" />
+                            <img alt="cable-tv" src="/assets/images/icons/bill/bill-add-bill/cable-tv.svg" />
                         </div>
                         <div className="card-name card-color">Cước Truyền hình</div>
                     </a>
                 </div>
                 <div className="card-link-wrapper card-customize">
-                    <a href="#" className="card-link shadow-btn" style={{ position: 'relative' }}>
+                    <a href="!#" className="card-link shadow-btn" style={{ position: 'relative' }}>
                         <div className="card-img">
-                            <img alt="" src="/assets/images/icons/bill/bill-add-bill/tuition.svg" />
+                            <img alt="tuition" src="/assets/images/icons/bill/bill-add-bill/tuition.svg" />
                         </div>
                         <div className="card-name card-color">Học phí</div>
                     </a>

@@ -31,7 +31,7 @@ function BillPage() {
                         </Link>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/water.png" />
                             </div>
@@ -39,7 +39,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/landline-phone.png" />
                             </div>
@@ -47,7 +47,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/phone-bill.png" />
                             </div>
@@ -55,7 +55,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/adsl-internet.png" />
                             </div>
@@ -63,7 +63,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/cable-tv.png" />
                             </div>
@@ -71,7 +71,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/train-ticket.png" />
                             </div>
@@ -79,7 +79,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/air-ticket.png" />
                             </div>
@@ -87,7 +87,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/mask_group.svg" />
                             </div>
@@ -96,7 +96,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize  shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/tuition.png" />
                             </div>
@@ -104,7 +104,7 @@ function BillPage() {
                         </a>
                     </div>
                     <div className="card-link-wrapper card-customize shadow-btn">
-                        <a href="#" className="card-link" style={{ position: 'relative' }}>
+                        <a href="!#" className="card-link" style={{ position: 'relative' }}>
                             <div className="card-img">
                                 <img alt="" src="/assets/images/icons/bill/hospital-fee.png" />
                             </div>

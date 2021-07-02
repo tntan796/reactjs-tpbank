@@ -5,7 +5,7 @@ function HeaderComponent() {
         <div className="page-header">
             <div className="top-header">
                 <img alt="" id="hamburger-menu" src="/assets/images/main/ic_menu.png" />
-                <a href="https://tpb.vn" target="_blank">
+                <a href="https://tpb.vn" target="_blank" rel="noreferrer">
                     <img alt="" className="logo" src="/assets/images/main/logo.png" />
                 </a>
             </div>
@@ -15,8 +15,7 @@ function HeaderComponent() {
                         <a className="cursor-pointer" href="/index.html"> Trang chủ
                             <i className="fas fa-chevron-right"></i>
                         </a>
-                        <a className="cursor-pointer">Chuyển khoản
-                        </a>
+                        <a className="cursor-pointer" href="!#">Chuyển khoản </a>
                     </div>
                     <h1 className="page-title">Chuyển Khoản</h1>
                 </div>
@@ -38,7 +37,7 @@ function HeaderComponent() {
                     <i className="fas fa-chevron-down" />
                 </div>
                 <div className="user-menu" hidden>
-                    <a>
+                    <a href="!#">
                         <i className="fas fa-power-off" /> Thoát
                     </a>
                 </div>

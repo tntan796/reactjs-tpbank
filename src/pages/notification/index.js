@@ -57,14 +57,14 @@ function NotificationPage() {
                             <i className="fas fa-trash btn-delete" />
                         </div>
                     </div>
-                    <img className="btn-check-all" src="./assets/images/icons/check-all.svg" />
+                    <img className="btn-check-all" src="./assets/images/icons/check-all.svg" alt="check-all"/>
                 </div>
             </div>
             <div className="d-none">
                 <div className="mx-auto" style={{ width: '496px' }}>
                     <div className="preview d-none" style={{ height: '673px', overflow: 'hidden' }}>
                         <div>
-                            <img src="/assets/images/icons/bao-lixi.svg" />
+                            <img src="/assets/images/icons/bao-lixi.svg" alt="bao-lixi"/>
                         </div>
                         <div className="lottieContainer d-none">
                         </div>

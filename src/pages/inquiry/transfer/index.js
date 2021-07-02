@@ -108,7 +108,7 @@ function InquiryTransferPage() {
             </div>
             <div className="download-area">
                 <span className="down">
-                    <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_DownLoad.svg" />
+                    <img src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_DownLoad.svg" alt="Icons_DownLoad"/>
                     Tải lịch sử giao dịch
                 </span>
             </div>

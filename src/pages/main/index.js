@@ -9,12 +9,12 @@ function MainPage() {
                             <div className="card-name">TANO</div>
                             <div className="card-number">124234234</div>
                             <div className="card-balances"> 706,555 <span>VND</span>
-                                <img className="eye" src="./assets/images/main/ic_un-eye.png" />
+                                <img className="eye" src="./assets/images/main/ic_un-eye.png" alt="ic_un-eye"/>
                             </div>
                             <div className="recharge-button">
                                 <a href="/retail/vX/main/inquiry/account/overview?id=02105921501">
                                     <span className="text-link">Chi tiết</span>
-                                    <img src="./assets/images/main/right.png" />
+                                    <img src="./assets/images/main/right.png" alt="right"/>
                                 </a>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ function MainPage() {
                             <div className="instruction">
                                 <div>
                                     <div>
-                                        <img src="./assets/images/main/search-function.svg" style={{ height: '24px' }} />
+                                        <img src="./assets/images/main/search-function.svg" style={{ height: '24px' }} alt="search-function"/>
                                     </div>
                                     <div className="mt-1"> Quý khách có thể tìm nhanh các tính năng </div>
                                     <div> Ví dụ: Chuyển tiền theo lịch, Tra cứu thẻ tín dụng... </div>
@@ -58,7 +58,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="/transfer-internal.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/transfer.png" />
+                            <img src="./assets/images/main/transfer.png" alt="transfer"/>
                         </div>
                         <div className="card-name card-color">Chuyển khoản</div>
                     </a>
@@ -66,7 +66,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="bill.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/bill.png" />
+                            <img src="./assets/images/main/bill.png" alt="bill"/>
                         </div>
                         <div className="card-name card-color">Hoá đơn</div>
                     </a>
@@ -74,7 +74,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="mobile.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/phone-topup.png" />
+                            <img src="./assets/images/main/phone-topup.png" alt="phone-topup"/>
                         </div>
                         <div className="card-name card-color">Nạp tiền điện thoại</div>
                     </a>
@@ -82,7 +82,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="inquiry.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/inquiry.png" />
+                            <img src="./assets/images/main/inquiry.png" alt="inquiry"/>
                         </div>
                         <div className="card-name card-color">Tra cứu</div>
                     </a>
@@ -90,7 +90,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="saving.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/saving.png" />
+                            <img src="./assets/images/main/saving.png" alt="saving"/>
                         </div>
                         <div className="card-name card-color">Tiết kiệm
                         </div>
@@ -99,7 +99,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="card.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/card.png" />
+                            <img src="./assets/images/main/card.png" alt="card"/>
                         </div>
                         <div className="card-name card-color">Quản lý thẻ</div>
                     </a>
@@ -107,7 +107,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="loan.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/loan.png" />
+                            <img src="./assets/images/main/loan.png" alt="loan"/>
                         </div>
                         <div className="card-name card-color">Khoản vay</div>
                     </a>
@@ -115,7 +115,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="loyalty.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/loyalty.png" />
+                            <img src="./assets/images/main/loyalty.png" alt="loyalty"/>
                         </div>
                         <div className="card-name card-color">Khách hàng thân thiết</div>
                     </a>
@@ -123,7 +123,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="wallet.html">
                         <div className="card-img">
-                            <img src="./assets/images/main/ewallet.png" />
+                            <img src="./assets/images/main/ewallet.png" alt="ewallet"/>
                         </div>
                         <div className="card-name card-color">Ví điện tử
                         </div>
@@ -132,7 +132,7 @@ function MainPage() {
                 <div className="card-link-wrapper card-customize">
                     <a className="card-link shadow-btn" style={{ position: 'relative' }} href="/">
                         <div className="card-img">
-                            <img src="./assets/images/main/abroad.png" />
+                            <img src="./assets/images/main/abroad.png" alt="abroad"/>
                         </div>
                         <div className="card-name card-color">Chuyển Tiền Du Học</div>
                     </a>

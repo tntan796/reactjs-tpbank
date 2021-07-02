@@ -5,7 +5,7 @@ function SettingNiceAccountPage() {
             <div className="nice_account_container">
                 <div>
                     <div className="nice_account_head">
-                        <img src="/assets/images/nice_account_banner.png" />
+                        <img src="/assets/images/nice_account_banner.png" alt="nice_account_banner" />
                         <p className="text-intro">Lựa chọn 3 số cuối cho dãy số tài khoản mong muốn!</p>
                         <div className="input-group prefix">
                             <span className="input-group-addon">0210 5921</span>

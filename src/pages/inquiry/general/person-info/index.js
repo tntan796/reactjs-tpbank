@@ -48,8 +48,8 @@ function PersonInfoPage() {
                                         <strong>Thay đổi số điện thoại</strong>
                                         <br />Nếu quý khách muốn thay đổi số điện thoại vui
                                         lòng đến quầy TPBank để được hướng dẫn thêm.<br />
-                                        <a href="#" target="_blank">
-                                            <img src="/assets/icons/ic_search_location.svg" />
+                                        <a href="!#" target="_blank">
+                                            <img src="/assets/icons/ic_search_location.svg" alt="ic_search_location"/>
                                             <strong>Tìm quầy TPBank</strong>
                                         </a>
                                     </span>

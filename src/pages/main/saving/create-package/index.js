@@ -1,5 +1,4 @@
 import './index.css';
-import { Link } from 'react-router-dom';
 
 function SavingCreatePackagePage() {
     return (
@@ -31,7 +30,7 @@ function SavingCreatePackagePage() {
                         </div>
                         <div className="card-select-package">
                             <div className="icon-package">
-                                <img alt="" src="/assets/images/icons/saving/ic_gold_2.svg" />
+                                <img alt="ic_gold_2" src="/assets/images/icons/saving/ic_gold_2.svg" />
                             </div>
                             <div className="package-info">
                                 <div className="package-name">Tiết kiệm Tài Lộc Điện Tử</div>

@@ -8,7 +8,7 @@ function TransferStockPage() {
                     <div className="col-md-6">
                         <Link className="stock" to="/transfer/internal">
                             <div className="stock-info">
-                                <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/9b422c36-6a0d-4854-b242-4e37216739f1" />
+                                <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/9b422c36-6a0d-4854-b242-4e37216739f1" alt="9b422c36-6a0d-4854-b242-4e37216739f1"/>
                                 <div>CHỨNG KHOÁN FPTS</div>
                             </div>
                             <div className="tranfer-detail-icon">
@@ -19,7 +19,7 @@ function TransferStockPage() {
                     <div className="col-md-6">
                     <Link className="stock" to="/transfer/internal">
                             <div className="stock-info">
-                                <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/7f0bbf5b-e0fb-466a-9ea5-e0d7f5ed388e" />
+                                <img src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/7f0bbf5b-e0fb-466a-9ea5-e0d7f5ed388e" alt="7f0bbf5b-e0fb-466a-9ea5-e0d7f5ed388e"/>
                                 <div>CHỨNG KHOÁN TPS</div>
                             </div>
                             <div className="tranfer-detail-icon">

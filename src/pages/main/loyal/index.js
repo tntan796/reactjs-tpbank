@@ -8,7 +8,7 @@ function LoyalPage() {
                     <div className="button-right-header">
                         <div className="content">
                             <div style={{ cursor: 'pointer' }}>
-                                <a className="txt-rule" target="_blank" href="https://tpb.vn/wps/wcm/connect/7d8ed4b8-2383-4955-84b0-8d86cd0c5cd9/QUY+%C4%90%E1%BB%8ANH+V%E1%BB%80+C%C6%A0+CH%E1%BA%BE+T%C3%8DCH+%C4%90I%E1%BB%82M+%C4%90%E1%BB%94I+QU%C3%80+LOYALTY_2018+%28v4%29.pdf?MOD=AJPERES&CVID=muGzY7B&CVID=muGzY7B&CVID=moJ.bDw&CVID=moJ.bDw&CVID=moJ.bDw">Thể lệ</a>
+                                <a className="txt-rule" rel="noreferrer" target="_blank" href="https://tpb.vn/wps/wcm/connect/7d8ed4b8-2383-4955-84b0-8d86cd0c5cd9/QUY+%C4%90%E1%BB%8ANH+V%E1%BB%80+C%C6%A0+CH%E1%BA%BE+T%C3%8DCH+%C4%90I%E1%BB%82M+%C4%90%E1%BB%94I+QU%C3%80+LOYALTY_2018+%28v4%29.pdf?MOD=AJPERES&CVID=muGzY7B&CVID=muGzY7B&CVID=moJ.bDw&CVID=moJ.bDw&CVID=moJ.bDw">Thể lệ</a>
                                 <img alt="" className="icon-rule" src="/assets/images/icons/loyalty/icons-question-fill.svg" />
                             </div>
                         </div>
