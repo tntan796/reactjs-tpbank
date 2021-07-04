@@ -171,3 +171,30 @@ export const Inquiries = [
         icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/ic_inquiry_vat.svg', altIcon: 'ic_inquiry_vat'
     },
 ]
+
+export const InquirySavings = [
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg',
+        altIcon : 'ic_piggy',
+        name : 'TK Kỳ Hạn Điện Tử 07/09/20',
+        accountNumber : '23423 04V',
+        money : '2,538,692',
+        settlement : '07/03/2021'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg',
+        altIcon : 'ic_piggy',
+        name : 'TK Điện Tử 08/02/2021',
+        accountNumber : '23423 06K',
+        money : '2,500,000',
+        settlement : '08/03/2021'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg',
+        altIcon : 'ic_piggy',
+        name : 'TK Điện Tử 08/02/2021',
+        accountNumber : '23423 06F',
+        money : '2,500,000',
+        settlement : '08/08/2021'
+    }
+]

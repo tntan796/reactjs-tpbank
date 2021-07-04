@@ -1,5 +1,20 @@
 import './index.css';
+import InquirySavingItem from '../../../components/inquiry-saving-item/index';
+import { InquirySavings } from '../../../common/mock-data/main.mockdata';
+
 function InquirySavingPage() {
+    const savingElms = InquirySavings.map((saving, index) => (
+        <InquirySavingItem
+            key = {index}
+            icon = {saving.icon}
+            altIcon = {saving.altIcon}
+            name = {saving.name}
+            accountNumber = {saving.accountNumber}
+            money = {saving.money}
+            settlement = {saving.settlement}
+        />
+    ));
+
     return (
         <div className="content row">
             <div className="content-left">
@@ -18,61 +33,7 @@ function InquirySavingPage() {
                             <img alt="down" className="icon-down scaleHydro" src="https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Arrow_Down.svg" />
                         </div>
                         <div className="has-conntent-saving">
-                            <div className="saving-item row pointer" tabIndex={0}>
-                                <div className="col-sm-2 oval">
-                                    <img alt="Saving" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg" />
-                                </div>
-                                <div className="center col-sm-9">
-                                    <h6>TK Kỳ Hạn Điện Tử 07/09/20</h6>
-                                    <div className="medium">
-                                        <h6 className="account-number">23423 04V</h6>
-                                        <div className="gr_curr">
-                                            <h6 className="curren">2,538,692
-                                                <span>VND</span>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                    <p>Thu hoạch <span>07/03/2021</span></p>
-                                </div>
-                            </div>
-                            <div className="saving-item row pointer" tabIndex={0}>
-                                <div className="col-sm-2 oval">
-                                    <img alt="Saving" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg" />
-                                </div>
-                                <div className="center col-sm-9">
-                                    <h6>TK Điện Tử 08/02/2021</h6>
-                                    <div className="medium">
-                                        <h6 className="account-number">23423 06K</h6>
-                                        <div className="gr_curr">
-                                            <h6 className="curren">2,500,000
-                                                <span>VND</span>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                    <p>Thu hoạch
-                                        <span>08/03/2021</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="saving-item row pointer" tabIndex={0}>
-                                <div className="col-sm-2 oval">
-                                    <img alt="Saving" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_piggy.svg" />
-                                </div>
-                                <div className="center col-sm-9">
-                                    <h6>TK Điện Tử 08/02/2021</h6>
-                                    <div className="medium">
-                                        <h6 className="account-number">23423 06F</h6>
-                                        <div className="gr_curr">
-                                            <h6 className="curren">2,500,000
-                                                <span>VND</span>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                    <p>Thu hoạch
-                                        <span>08/08/2021</span>
-                                    </p>
-                                </div>
-                            </div>
+                            {savingElms}
                         </div>
                     </div>
                 </div>
