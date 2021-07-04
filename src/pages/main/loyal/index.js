@@ -1,6 +1,20 @@
-import { Link } from 'react-router-dom';
+import GiftItemComponent from '../../../components/gift-item/index';
+import { Gifts } from '../../../common/mock-data/main.mockdata';
 import './index.css';
 function LoyalPage() {
+
+    const giftElms = Gifts.map((gift, index) => (
+        <GiftItemComponent
+            key= {index}
+            icon = {gift.icon}
+            altIcon = {gift.altIcon}
+            title = {gift.title}
+            partner = {gift.partner}
+            point = {gift.point}
+            link = {gift.link}
+        />
+    ))
+
     return (
         <div className="content-wrap">
             <div>
@@ -142,81 +156,7 @@ function LoyalPage() {
                                     </div>
                                 </div>
                                 <div className="list-gift-section row " infinite-scroll>
-                                    <div className="gift-card col-md-6">
-                                        <div className="gift-info">
-                                            <div className="gift-image">
-                                                <img alt="" src="/assets/images/icons/loyalty/gif.png" />
-                                            </div>
-                                            <div className="gift-detail">
-                                                <div className="title">Voucher Grab trị giá
-                                                    30.000
-                                                    đồng</div>
-                                                <div className="partner">Đối tác TPBank</div>
-                                                <div className="wrap-button">
-                                                    <div className="point">3,300
-                                                        <span className="point-txt">điểm</span>
-                                                    </div>
-                                                    <Link className="exchange-gift" to="/loyalty/gift">
-                                                        <span className="text-link text-link-size">
-                                                            Đổi quà
-                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
-                                                        </span>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="gift-card-border" />
-                                    </div>
-                                    <div className="gift-card col-md-6">
-                                        <div className="gift-info">
-                                            <div className="gift-image">
-                                                <img alt="" src="/assets/images/icons/loyalty/gif.png" />
-                                            </div>
-                                            <div className="gift-detail">
-                                                <div className="title">Voucher Grab trị giá
-                                                    50.000
-                                                    đồng</div>
-                                                <div className="partner">Đối tác TPBank</div>
-                                                <div className="wrap-button">
-                                                    <div className="point">5,500
-                                                        <span className="point-txt">điểm</span>
-                                                    </div>
-                                                    <Link className="exchange-gift" to="/loyalty/gift">
-                                                        <span className="text-link text-link-size">
-                                                            Đổi quà
-                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
-                                                        </span>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="gift-card-border" />
-                                    </div>
-                                    <div className="gift-card col-md-6">
-                                        <div className="gift-info">
-                                            <div className="gift-image">
-                                                <img alt="" src="/assets/images/icons/loyalty/gif.png" />
-                                            </div>
-                                            <div className="gift-detail">
-                                                <div className="title">Voucher tại hệ thống
-                                                    Nhà
-                                                    hàng Lotteria trị giá 50k</div>
-                                                <div className="partner">Đối tác TPBank</div>
-                                                <div className="wrap-button">
-                                                    <div className="point">5,500
-                                                        <span className="point-txt">điểm</span>
-                                                    </div>
-                                                    <Link className="exchange-gift" to="/loyalty/gift">
-                                                        <div className="text-link text-link-size" href="loyalty-gift.html">
-                                                            Đổi quà
-                                                            <img alt="" className="common-image" src="/assets/images/icons/loyalty/right.svg" />
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="gift-card-border" />
-                                    </div>
+                                    {giftElms}
                                 </div>
                             </div>
                         </div>
