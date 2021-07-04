@@ -33,14 +33,42 @@ export const BillCards = [
     },
     {
         link: '/bill/bill-electric', title: 'Nước',
-        icon: '/assets/images/icons/bill/water.png', altIcon: 'napas'
+        icon: '/assets/images/icons/bill/water.png', altIcon: 'water'
     },
     {
         link: '/bill/bill-electric', title: 'Điện thoại cố định',
-        icon: '/assets/images/icons/bill/landline-phone.png', altIcon: 'napas'
+        icon: '/assets/images/icons/bill/landline-phone.png', altIcon: 'landline-phone'
     },
     {
-        link: '/transfer/internal', title: 'Nước',
-        icon: '/assets/images/icons/bill/water.png', altIcon: 'napas'
+        link: '/bill/bill-electric', title: 'Điện thoại di động trả sau',
+        icon: '/assets/images/icons/bill/phone-bill.png', altIcon: 'phone-bill'
     },
+    {
+        link: '/bill/bill-electric', title: 'Cước Internet ADSL',
+        icon: '/assets/images/icons/bill/adsl-internet.png', altIcon: 'adsl-internet'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Cước Truyền hình',
+        icon: '/assets/images/icons/bill/cable-tv.png', altIcon: 'cable-tv'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Vé tàu',
+        icon: '/assets/images/icons/bill/train-ticket.png', altIcon: 'train-ticket'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Vé máy bay trả sau',
+        icon: '/assets/images/icons/bill/air-ticket.png', altIcon: 'air-ticket'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Bảo hiểm Sun Life',
+        icon: '/assets/images/icons/bill/mask_group.svg', altIcon: 'mask_group'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Học phí',
+        icon: '/assets/images/icons/bill/tuition.png', altIcon: 'tuition'
+    },
+    {
+        link: '/bill/bill-electric', title: 'Viện phí',
+        icon: '/assets/images/icons/bill/hospital-fee.png', altIcon: 'tuition'
+    }
 ];
