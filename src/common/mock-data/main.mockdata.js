@@ -111,3 +111,21 @@ export const Loans = [
         icon: './assets/images/icons/loan/inquiry.svg', altIcon: 'inquiry'
     }
 ]
+
+export const Gifts = [
+    {
+        icon: '/assets/images/icons/loyalty/gif.png', altIcon: 'gif',
+        title: 'Voucher Grab trị giá 30.000 đồng', partner: 'Đối tác TPBank',
+        point: '3,300', link: '/loyalty/gift'
+    },
+    {
+        icon: '/assets/images/icons/loyalty/gif.png', altIcon: 'gif',
+        title: 'Voucher Grab trị giá 50.000 đồng', partner: 'Đối tác TPBank',
+        point: '5,500', link: '/loyalty/gift'
+    },
+    {
+        icon: '/assets/images/icons/loyalty/gif.png', altIcon: 'gif',
+        title : 'Voucher tại hệ thống Nhà hàng Lotteria trị giá 50k',
+        partner: 'Đối tác TPBank', point: '5,500', link: '/loyalty/gift'
+    }
+]
