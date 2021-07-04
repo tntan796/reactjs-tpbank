@@ -279,10 +279,6 @@
         margin-right: 16px;
     }
 
-    .list-card-link .card-link-wrapper {
-        max-width: none;
-    }
-
     .list-card-link .card-customize {
         display: inline-block;
         width: 46%;
@@ -298,9 +294,6 @@
         margin-right: 0;
     }
 
-    .list-card-link .card-link-wrapper {
-        max-width: none;
-    }
     .list-card-link .card-customize {
         display: block;
         width: 100%;

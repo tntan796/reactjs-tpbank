@@ -1,7 +1,22 @@
 import './index.css';
 import { Link } from 'react-router-dom';
+import SavingItemComponent from '../../../components/saving-item/index';
+import { Savings } from '../../../common/mock-data/main.mockdata';
 
 function SavingPage() {
+
+    const savingElms = Savings.map((saving, index) => (
+        <SavingItemComponent
+            key={index}
+            icon = {saving.icon}
+            altIcon = {saving.altIcon}
+            savingName = {saving.savingName}
+            savingNumber = {saving.savingNumber}
+            savingAmount = {saving.savingAmount}
+            finalizationDate = {saving.finalizationDate}
+            pathDetail = {saving.pathDetail}/>
+    ));
+
     return (
         <div className="content-wrap">
             <div className="saving-home">
@@ -12,10 +27,10 @@ function SavingPage() {
                         </div>
                         <div className="content">
                             <span className="title">Tra cứu gói tiết kiệm tại Quầy, LiveBank, Savy?</span>
-                            <div className="action-link" routerlink="/main/inquiry/saving" tabIndex={0}>
+                            <Link className="action-link" to="/inquiry/inquiry-saving" tabIndex={0}>
                                 <span className="mr-2">Bấm vào đây</span>
                                 <i className="fas fa-chevron-right" />
-                            </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="list-saving">
@@ -28,43 +43,8 @@ function SavingPage() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="title">Gói Tiết kiệm Điện tử đã có (83)</div>
-                        <div className="card-saving-item">
-                            <div className="icon-saving">
-                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
-                            </div>
-                            <div className="saving-info">
-                                <div className="saving-name">TK Điện Tử 10/02/2021</div>
-                                <div className="saving-number">02342321 06N</div>
-                                <div className="saving-amount">
-                                    <b>2,500,000 VND</b>
-                                </div>
-                                <div className="saving-finalization">
-                                    <div className="finalization-date"> Tất toán 17/03/2021 </div>
-                                    <Link className="action" to="/saving/saving-detail">Xem chi tiết
-                                        <i className="fas fa-chevron-right ml-2" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card-saving-item">
-                            <div className="icon-saving">
-                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
-                            </div>
-                            <div className="saving-info">
-                                <div className="saving-name">TK Điện Tử 08/02/2021</div>
-                                <div className="saving-number">02234221 06M</div>
-                                <div className="saving-amount">
-                                    <b>2,500,000 VND</b>
-                                </div>
-                                <div className="saving-finalization">
-                                    <div className="finalization-date"> Tất toán 08/03/2021 </div>
-                                    <Link className="action" to="/saving/saving-detail">Xem chi tiết
-                                        <i className="fas fa-chevron-right ml-2" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        <div className="title">Gói Tiết kiệm Điện tử đã có ({Savings.length})</div>
+                        {savingElms}
                     </div>
                 </div>
             </div>

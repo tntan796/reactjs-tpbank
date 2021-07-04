@@ -1,6 +1,21 @@
 import { Link } from 'react-router-dom';
 import './index.css';
+import WalletItemComponent from '../../../components/wallet-item/index';
+import { Wallets } from '../../../common/mock-data/main.mockdata';
+
 function WalletPage() {
+
+    const walletItems = Wallets.map((wallet, index) => (
+        <WalletItemComponent
+            key = {index}
+            icon = {wallet.icon}
+            altIcon = {wallet.altIcon}
+            provider = {wallet.provider}
+            fullname = {wallet.fullname}
+            walletId = {wallet.walletId}
+        />
+    ));
+
     return (
         <div className="content-wrap">
             <div className="tab-main">
@@ -17,30 +32,7 @@ function WalletPage() {
                             <div>Thêm liên kết ví</div>
                         </div>
                     </Link>
-                    <div className="wallet-item shadow-btn">
-                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/1e61f265-d40f-437a-87e2-08eca11f0ebe?_=1571989230425" />
-                        <div className="wallet-desc">
-                            <div className="provider">Momo</div>
-                            <div className="fullname">TANO</div>
-                            <div className="wallet-id">096 79234234</div>
-                        </div>
-                    </div>
-                    <div className="wallet-item shadow-btn">
-                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/4764a2da-e492-431f-9735-a61ab859c224?_=1571989188844" />
-                        <div className="wallet-desc">
-                            <div className="provider">AirPay</div>
-                            <div className="fullname">TANO</div>
-                            <div className="wallet-id">096 234233124</div>
-                        </div>
-                    </div>
-                    <div className="wallet-item shadow-btn">
-                        <img alt="" src="https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/3e0f25cd-b027-4748-ada5-b1faa4223b0f?_=1591348045058" />
-                        <div className="wallet-desc">
-                            <div className="provider">ZaloPay</div>
-                            <div className="fullname">TANO</div>
-                            <div className="wallet-id">096 534534</div>
-                        </div>
-                    </div>
+                    {walletItems}
                 </div>
             </div>
         </div>

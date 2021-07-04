@@ -13,12 +13,6 @@
     flex-wrap: wrap;
 }
 
-.list-card-link .card-link-wrapper {
-    display: inline-block;
-    width: 33.33%;
-    max-width: 256px;
-}
-
 .container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper {
     width: 48.8%;
     margin-bottom: 23px;
