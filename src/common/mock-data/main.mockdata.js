@@ -129,3 +129,18 @@ export const Gifts = [
         partner: 'Đối tác TPBank', point: '5,500', link: '/loyalty/gift'
     }
 ]
+
+export const Wallets = [
+    {
+        icon : "https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/1e61f265-d40f-437a-87e2-08eca11f0ebe?_=1571989230425",
+        altIcon : "momo", provider : "Momo", fullname : "TANO", walletId : "096 79234234"
+    },
+    {
+        icon : "https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/4764a2da-e492-431f-9735-a61ab859c224?_=1571989188844",
+        altIcon : "AirPay", provider : "AirPay", fullname : "TANO", walletId : "096 79234234"
+    },
+    {
+        icon : "https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/3e0f25cd-b027-4748-ada5-b1faa4223b0f?_=1591348045058",
+        altIcon : "ZaloPay", provider : "ZaloPay", fullname : "TANO", walletId : "096 79234234"
+    }
+]
