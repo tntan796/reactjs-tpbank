@@ -72,3 +72,31 @@ export const BillCards = [
         icon: '/assets/images/icons/bill/hospital-fee.png', altIcon: 'tuition'
     }
 ];
+
+export const Savings = [
+    {
+        icon: '/assets/images/icons/saving/ic_piggy_2.svg', altIcon: 'ic_piggy_2',
+        savingName: 'TK Điện Tử 10/02/2021', savingNumber: '02342321 06N',
+        savingAmount: '2,500,000 VND', finalizationDate: 'Tất toán 17/03/2021',
+        pathDetail: '/saving/saving-detail'
+    },
+    {
+        icon: '/assets/images/icons/saving/ic_piggy_2.svg', altIcon: 'ic_piggy_2',
+        savingName: 'TK Điện Tử 08/02/2021', savingNumber: '02234221 06M',
+        savingAmount: '2,500,000 VND', finalizationDate: 'Tất toán 08/03/2021',
+        pathDetail: '/saving/saving-detail'
+    }
+];
+
+export const SavingPackages = [
+    {
+        icon : '/assets/images/icons/saving/ic_piggy_2.svg', altIcon : 'ic_piggy_2', packageName : 'Tiết kiệm Điện Tử',
+        packagePeriod : 'Từ 1 tuần đến 36 tháng', interestRate : '6.45 %',
+        path : ''
+    },
+    {
+        icon : '/assets/images/icons/saving/ic_gold_2.svg', altIcon : 'ic_gold_2', packageName : 'Tiết kiệm Tài Lộc Điện Tử',
+        packagePeriod : '4, 5, 7, 13 tháng', interestRate : '6.25 %',
+        path : ''
+    }
+]

@@ -1,54 +1,28 @@
 import './index.css';
+import SavingPackageComponent from '../../../../components/saving-package/index';
+import { SavingPackages } from '../../../../common/mock-data/main.mockdata';
 
 function SavingCreatePackagePage() {
+
+    const savingPackageElms = SavingPackages.map((pack, index) => (
+        <SavingPackageComponent
+            key = {index}
+            icon = {pack.icon}
+            altIcon = {pack.altIcon}
+            packageName = {pack.packageName}
+            packagePeriod =  {pack.packagePeriod}
+            interestRate = {pack.interestRate}
+            path = {pack.path}
+        />
+    ));
+
     return (
         <div className="content-wrap">
             <div className="create-saving-package">
                 <div className="select-package-type d-block">
                     <div>
                         <div className="title">Lựa chọn loại tiết kiệm để bắt đầu</div>
-                        <div className="card-select-package">
-                            <div className="icon-package">
-                                <img alt="" src="/assets/images/icons/saving/ic_piggy_2.svg" />
-                            </div>
-                            <div className="package-info">
-                                <div className="package-name">Tiết kiệm Điện Tử</div>
-                                <div className="package-period">
-                                    <span className="txt-color-2">Kỳ hạn:</span>
-                                    <span>Từ 1 tuần đến 36 tháng</span>
-                                </div>
-                                <div className="package-interest-rate">
-                                    <div className="interest-rate">
-                                        <span className="txt-color-2">Lãi suất cao nhất: </span>
-                                        <span>6.45 %</span>
-                                    </div>
-                                    <div className="action">Chọn
-                                        <i className="fas fa-chevron-right ml-2" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card-select-package">
-                            <div className="icon-package">
-                                <img alt="ic_gold_2" src="/assets/images/icons/saving/ic_gold_2.svg" />
-                            </div>
-                            <div className="package-info">
-                                <div className="package-name">Tiết kiệm Tài Lộc Điện Tử</div>
-                                <div className="package-period">
-                                    <span className="txt-color-2">Kỳ hạn: </span>
-                                    <span>4, 5, 7, 13 tháng</span>
-                                </div>
-                                <div className="package-interest-rate">
-                                    <div className="interest-rate">
-                                        <span className="txt-color-2">Lãi suất cao nhất: </span>
-                                        <span>6.25 %</span>
-                                    </div>
-                                    <div className="action">Chọn
-                                        <i className="fas fa-chevron-right ml-2" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {savingPackageElms}
                     </div>
                 </div>
                 <div className="input-info-package d-none">
