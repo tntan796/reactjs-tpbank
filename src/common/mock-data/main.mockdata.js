@@ -100,3 +100,14 @@ export const SavingPackages = [
         path : ''
     }
 ]
+
+export const Loans = [
+    {
+        link: '#', title: 'Ứng tiền từ sổ tiết kiệm',
+        icon: './assets/images/icons/loan/overdraft.svg', altIcon: 'overdraft'
+    },
+    {
+        link: '#', title: 'Tra cứu khoản vay',
+        icon: './assets/images/icons/loan/inquiry.svg', altIcon: 'inquiry'
+    }
+]
