@@ -144,3 +144,30 @@ export const Wallets = [
         altIcon : "ZaloPay", provider : "ZaloPay", fullname : "TANO", walletId : "096 79234234"
     }
 ]
+
+export const Inquiries = [
+    {
+        link: 'inquiry-account', title: 'Tài khoản',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/bank.svg', altIcon: 'bank'
+    },
+    {
+        link: 'inquiry-saving', title: 'Tiết kiệm',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/saving.svg', altIcon: 'saving'
+    },
+    {
+        link: 'inquiry-loan', title: 'Khoản vay',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/loan.svg', altIcon: 'loan'
+    },
+    {
+        link: 'inquiry-credit-card', title: 'Thẻ tín dụng',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/card.svg', altIcon: 'card'
+    },
+    {
+        link: 'inquiry-general', title: 'Thông Tin Tổng Hợp',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/ic_in_ge_home.svg', altIcon: 'ic_in_ge_home'
+    },
+    {
+        link: 'inquiry-vat', title: 'Hóa Đơn VAT',
+        icon: 'https://ebank.tpb.vn/retail/vX/assets/images/card-links/ic_inquiry_vat.svg', altIcon: 'ic_inquiry_vat'
+    },
+]
