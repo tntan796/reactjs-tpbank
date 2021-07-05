@@ -371,3 +371,38 @@ export const SettingCardItems = [
         link: '/setting/setting-referring'
     }
 ]
+
+export const Devices = [
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/ic_device_web.svg',
+        altIcon : 'ic_device_web',
+        device : 'Chrome',
+        link : 'Huỷ liên kết',
+        time : 'Đang đăng nhập',
+        timeColor : '#17C37B'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/ic_device_web.svg',
+        altIcon : 'ic_device_web',
+        device : 'Chrome',
+        link : 'Huỷ liên kết',
+        time : 'Đăng nhập lần cuối 21:37 02/03/2021',
+        timeColor : ''
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/ic_device_mobile.svg',
+        altIcon : 'ic_device_mobile',
+        device : 'Chrome',
+        link : 'Huỷ liên kết',
+        time : 'Đăng nhập lần cuối 23:21 26/02/2021',
+        timeColor : ''
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/ic_device_mobile.svg',
+        altIcon : 'ic_device_mobile',
+        device : 'MI 8',
+        link : 'Huỷ liên kết',
+        time : 'Đăng nhập lần cuối 08:39 30/11/2020',
+        timeColor : ''
+    }
+]
