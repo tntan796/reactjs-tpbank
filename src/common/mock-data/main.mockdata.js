@@ -434,6 +434,36 @@ export const Transactions = [
     }
 ]
 
+export const Notifications = [
+    {
+        message: `(TPBank): 25/06/21;14:16
+        TK: xxxx5921501
+        PS:+1.000.000VND
+        SD: 1.005.324VND
+        SD KHA DUNG: 1.005.324VND
+        ND: anh manh gui tien`,
+        date: `25/06 14:28`
+    },
+    {
+        message: `(TPBank):23/06/21;17:21
+        TK: xxxx5921501
+        PS: -1.000.000VND
+        SD: 5.283VND
+        SD KHA DUNG: 5.283VND
+        ND: RUT TIEN TAI ATM`,
+        date: `23/06 17:21`
+    },
+    {
+        message: `(TPBank): 22/06/21;17:42
+        TK: xxxx5921501
+        PS:-3.565.000VND
+        SD: 1.005.283VND
+        SD KHA DUNG: 1.005.283VND
+        ND: TRAN NGOC TAN chuyen tien`,
+        date: `22/06 17:43`
+    }
+]
+
 export const Faqs = [
     {
         question: '1. Dịch vụ TPBank eBank có những tính năng gì?',
