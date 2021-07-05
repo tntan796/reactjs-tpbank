@@ -298,3 +298,76 @@ export const Applications = [
         appName: 'QuickPay'
     }
 ]
+
+export const SettingCardItems = [
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Profile.svg',
+        altIcon : 'Icons_Profile',
+        titleCard : 'Nâng cấp tài khoản',
+        type: '',
+        link: '/setting/setting-upgrade'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/setting/unlock.svg',
+        altIcon : 'unlock',
+        titleCard : 'Đổi mật khẩu',
+        type: 'personal',
+        link: '/setting/setting-change-password'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/setting/shield.svg',
+        altIcon : 'shield',
+        titleCard : 'Phương thức xác thực giao dịch',
+        type: 'personal',
+        link: '/setting/setting-auth-method'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Badge.svg',
+        altIcon : 'Icons_Badge',
+        titleCard : 'Thông tin tài khoản',
+        type: 'personal',
+        link: '/setting/setting-user'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Default_Account.svg',
+        altIcon : 'Icons_Default_Account',
+        titleCard : 'Tài khoản liên kết với số điện thoại',
+        type: 'personal',
+        link: '/setting/setting-default'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Manage_Device.svg',
+        altIcon : 'Icons_Manage_Device',
+        titleCard : 'Quản lý thiết bị',
+        type: 'personal',
+        link: '/setting/setting-device-management'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_SMS_Banking.svg',
+        altIcon : 'Icons_SMS_Banking',
+        titleCard : 'SMS Banking',
+        type: 'personal',
+        link: '#'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Question _ Outline.svg',
+        altIcon : 'Icons_Question',
+        titleCard : 'Câu hỏi thường gặp',
+        type: 'common',
+        link: '/setting/setting-faq'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Phone_Calling.svg',
+        altIcon : 'Icons_Phone_Calling',
+        titleCard : 'Liên hệ hỗ trợ',
+        type: 'common',
+        link: '/setting/setting-support'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/Icons_Share.svg',
+        altIcon : 'Icons_Share',
+        titleCard : 'Giới thiệu bạn bè',
+        type: 'common',
+        link: '/setting/setting-referring'
+    }
+]
