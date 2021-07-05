@@ -225,3 +225,22 @@ export const CardLinkItems = [
         link: 'inquiry-general/app', title: 'Ứng dụng của TPBank'
     }
 ]
+
+export const Overviews = [
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_in_ge_available_balances.svg', altIcon: 'ic_in_ge_available_balances',
+        label: 'Số dư khả dụng TKTT', amount: '706,555'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_in_ge_loan.svg', altIcon: 'ic_in_ge_loan',
+        label: 'Khoản vay', amount: '0'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_in_ge_total_saving.svg', altIcon: 'ic_in_ge_total_saving',
+        label: 'Tổng tiết kiệm', amount: '60,492'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_in_ge_debit.svg', altIcon: 'ic_in_ge_debit',
+        label: 'Dư nợ thẻ tín dụng', amount: '0'
+    }
+]
