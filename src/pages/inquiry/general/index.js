@@ -12,12 +12,12 @@ function InquiryGeneralPage() {
     let match = useRouteMatch();
     return (
         <Switch>
-            <Route path={`${match.path}ewallet`}> <EWalletPage /> </Route>
-            <Route path={`${match.path}limit`}> <LimitPage /> </Route>
-            <Route path={`${match.path}app`}> <GeneralAppPage /> </Route>
-            <Route path={`${match.path}periodic`}> <PeriodicPage /> </Route>
-            <Route path={`${match.path}financial-overview`}> <FinancialOverviewPage /> </Route>
-            <Route path={`${match.path}person-info`}> <PersonInfoPage /> </Route>
+            <Route path={`${match.path}/ewallet`}> <EWalletPage /> </Route>
+            <Route path={`${match.path}/limit`}> <LimitPage /> </Route>
+            <Route path={`${match.path}/app`}> <GeneralAppPage /> </Route>
+            <Route path={`${match.path}/periodic`}> <PeriodicPage /> </Route>
+            <Route path={`${match.path}/financial-overview`}> <FinancialOverviewPage /> </Route>
+            <Route path={`${match.path}/person-info`}> <PersonInfoPage /> </Route>
             <Route path={match.path} exact> <GeneralDefaultPage /> </Route>
         </Switch>
     );
