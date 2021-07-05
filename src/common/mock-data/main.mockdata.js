@@ -265,3 +265,26 @@ export const EWallets = [
         depositLimitPerDay : '10,000,000', depositLimitPerTime : '5,000,000',
     }
 ]
+
+export const TransferInfos = [
+    {
+        label: 'Trong TPBank',
+        depositLimitPerDay: '50,000,000',
+        depositLimitPerTime: '100,000,000'
+    },
+    {
+        label: 'Liên ngân hàng (nhanh 24/7)',
+        depositLimitPerDay: '50,000,000',
+        depositLimitPerTime: '100,000,000'
+    },
+    {
+        label: 'Liên ngân hàng (thông thường)',
+        depositLimitPerDay: '50,000,000',
+        depositLimitPerTime: '100,000,000'
+    },
+    {
+        label: 'Thanh toán hóa đơn',
+        depositLimitPerDay: '50,000,000',
+        depositLimitPerTime: '100,000,000'
+    }
+]

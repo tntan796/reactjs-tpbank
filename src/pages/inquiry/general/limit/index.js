@@ -1,44 +1,24 @@
 import './index.css';
-
+import TransferInfoItemComponent from '../../../../components/transfer-info-item/index';
+import { TransferInfos } from '../../../../common/mock-data/main.mockdata';
+import { useState } from 'react';
 function LimitPage() {
+    const [isShowInfo, setIsShowInfo] = useState(false)
+    const transferInfoElms = TransferInfos.map((transfer, index) => (
+        <TransferInfoItemComponent
+            key = {index}
+            label = {transfer.label}
+            depositLimitPerDay = {transfer.depositLimitPerDay}
+            depositLimitPerTime = {transfer.depositLimitPerTime}
+        />
+    ))
     return (
         <div className="content-wrap">
             <div className="limit">
                 <div className="limit-left">
                     <div className="limit-left-transfer"><span className="limit-title">HẠN MỨC CHUYỂN TIỀN</span>
                         <div className="limit-left-transfer-info">
-                            <div className="limit-left-transfer-info-item" id="limit_information_fund_internal">
-                                <div className="border-customize" id="limit_information_fund_internal_child"><span className="label">Trong TPBank</span>
-                                    <div className="limit-info">
-                                        <span>50,000,000 VND/lần</span>
-                                        <span>100,000,000 VND/ngày</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="limit-left-transfer-info-item" id="limit_information_fund_interbank247">
-                                <div className="border-customize" id="limit_information_fund_interbank247_child">
-                                    <span className="label">Liên ngân hàng (nhanh 24/7)</span>
-                                    <div className="limit-info">
-                                        <span>50,000,000 VND/lần</span>
-                                        <span>100,000,000 VND/ngày</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="limit-left-transfer-info-item" id="limit_information_fund_interbank_normal">
-                                <div className="border-customize" id="limit_information_fund_interbank_normal_child"><span className="label">Liên ngân hàng (thông thường)</span>
-                                    <div className="limit-info"><span>50,000,000
-                                        VND/lần</span><span>100,000,000 VND/ngày</span></div>
-                                </div>
-                            </div>
-                            <div className="limit-left-transfer-info-item" id="limit_information_billing">
-                                <div className="border-customize" id="limit_information_billing_child">
-                                    <span className="label">Thanh toán hóa đơn</span>
-                                    <div className="limit-info">
-                                        <span>50,000,000 VND/lần</span>
-                                        <span>100,000,000 VND/ngày</span>
-                                    </div>
-                                </div>
-                            </div>
+                            {transferInfoElms}
                         </div>
                     </div>
                     <div className="limit-left-topup">
@@ -64,9 +44,9 @@ function LimitPage() {
                                 <div className="card-item-container">
                                     <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_in_ge_atm.svg" />
                                     <span>Thẻ ATM (1)</span>
-                                    <i className="fas fa-chevron-up" />
+                                    <i onClick = { () => setIsShowInfo(!isShowInfo)} className={isShowInfo ? "fas fa-chevron-up" : "fas fa-chevron-down" }/>
                                 </div>
-                                <div className="card-item-detail show-info">
+                                <div className={isShowInfo ? "card-item-detail show-info" : "card-item-detail hide-info"}>
                                     <div className="card-item-detail-info">
                                         <span className="card-no">SỐ THẺ: 9704 23** **** 0461</span>
                                         <div className="card-item-detail-info-limit">
