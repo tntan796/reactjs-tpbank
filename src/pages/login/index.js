@@ -32,8 +32,8 @@ function LoginPage() {
                 <div className="content-wrap">
                     <div className="welcome">Chào mừng đến eBank!</div>
                     <div className="mt-4 username-container">
-                        <input autofocus className="form-control ng-pristine ng-valid ng-touched" maxLength={50} spellCheck="false" type="text" placeholder="Tên đăng nhập" />
-                        <div className="tooltip-wrapper" tpbtooltip>
+                        <input className="form-control ng-pristine ng-valid ng-touched" maxLength={50} spellCheck="false" type="text" placeholder="Tên đăng nhập" />
+                        <div className="tooltip-wrapper">
                             <i className="fas fa-info-circle tooltip-trigger" />
                         </div>
                     </div>

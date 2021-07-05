@@ -1,6 +1,9 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 function ForgotPasswordPage() {
+    const [isShowTypeDocument, setisShowTypeDocument] = useState(false)
     return (
         <div className="reset-password-container">
             <div className="reset-password">
@@ -17,10 +20,10 @@ function ForgotPasswordPage() {
                     <div className="col-sm-8 breadscrumb">
                         <div className="breadscrumb-wrapper">
                             <div className="breadscrumb">
-                                <a className="back-btn" href="./login.html">
+                                <Link className="back-btn" to="/login">
                                     <img src="/assets/images/forgot-password/back.png" />
                                     Trở về trang trước
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -33,11 +36,12 @@ function ForgotPasswordPage() {
                             <div className="group-input">
                                 <div className="input-type select-container">
                                     <div className="select-container">
-                                        <div className="select-container__wrap-top">
+                                        <div className="select-container__wrap-top" onClick = {() => setisShowTypeDocument(!isShowTypeDocument)}>
                                             <span className="select-container__placeholder">Loại giấy tờ</span>
-                                            <img className="select-container__icon" src="/assets/images/forgot-password/chevron-right-solid.svg" width="8px" />
+                                            <img className={isShowTypeDocument ? "select-container__icon rotate-icon" : "select-container__icon"}
+                                            src="/assets/images/forgot-password/chevron-right-solid.svg" width="8px" alt="container__icon" />
                                         </div>
-                                        <div className="select-container__wrap-items">
+                                        <div className= {isShowTypeDocument ? "select-container__wrap-items active" : "select-container__wrap-items"}>
                                             <div className="select-container__select-option">
                                                 <div className="text">CMND 9/12 Số</div>
                                             </div>

@@ -19,6 +19,11 @@ html, body {
     padding-bottom: 70px;
 }
 
+input[type=text] {
+    background-image: unset !important;
+    height: unset;
+}
+
 .hidden {
     opacity: 0;
     visibility: hidden;
