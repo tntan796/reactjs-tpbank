@@ -244,3 +244,24 @@ export const Overviews = [
         label: 'Dư nợ thẻ tín dụng', amount: '0'
     }
 ]
+
+export const EWallets = [
+    {
+        icon : 'https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/1e61f265-d40f-437a-87e2-08eca11f0ebe?_=1571989230425',
+        altIcon : 'Momo', walletName : 'Momo', accountName : 'Tano',
+        phone : '21347897312', accountNumber : '0123456', accountBalance : '706,555',
+        depositLimitPerDay : '10,000,000', depositLimitPerTime : '5,000,000',
+    },
+    {
+        icon : 'https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/4764a2da-e492-431f-9735-a61ab859c224?_=1571989188844',
+        altIcon : 'AirPay', walletName : 'AirPay', accountName : 'Tano',
+        phone : '21347897312', accountNumber : '0123456', accountBalance : '706,555',
+        depositLimitPerDay : '10,000,000', depositLimitPerTime : '5,000,000',
+    },
+    {
+        icon : 'https://ebank.tpb.vn/gateway/api/contentservices/api/contentstream-id/contentRepository/3e0f25cd-b027-4748-ada5-b1faa4223b0f?_=1591348045058',
+        altIcon : 'ZaloPay', walletName : 'ZaloPay', accountName : 'Tano',
+        phone : '21347897312', accountNumber : '0123456', accountBalance : '706,555',
+        depositLimitPerDay : '10,000,000', depositLimitPerTime : '5,000,000',
+    }
+]
