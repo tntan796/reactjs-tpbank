@@ -1,5 +1,19 @@
 import './index.css';
+import TransactionItemComponent from '../../../components/transaction-item/index';
+import { Transactions } from '../../../common/mock-data/main.mockdata';
+
 function InquiryTransferPage() {
+    const transactionElms = Transactions.map((transaction, index) => (
+        <TransactionItemComponent
+            key = {index}
+            day = {transaction.day}
+            dayOfWeek = {transaction.dayOfWeek}
+            month = {transaction.month}
+            detailRecord = {transaction.detailRecord}
+            moneyTransfer = {transaction.moneyTransfer}
+            type = {transaction.type}
+        />
+    ))
     return (
         <div className="transfer-container">
             <div className="button-header">
@@ -15,50 +29,7 @@ function InquiryTransferPage() {
             </div>
             <div className="content-transaction" data-toggle="modal" data-target="#detail-transaction">
                 <div className="list-transaction">
-                    <div className="container-transaction">
-                        <div className="date-content">
-                            <div className="date-left">24</div>
-                            <div className="date-right">
-                                <p className="day-bold">Thứ 4</p>
-                                <p>Tháng 2/2021</p>
-                            </div>
-                        </div>
-                        <div className="transaction-main">
-                            <div className="credit-name resize">
-                                <span className="detail-record resize"> Tới: NGUYEN THI THU HANG
-                                </span>
-                                <span className="money-transfer resize">- 500,000 VND</span>
-                            </div>
-                            <div className="transaction-type">
-                                <div className="item-detail">
-                                    <span><i className="image-type external" />
-                                    </span>
-                                    <span className="text-type">Chuyển tiền liên ngân
-                                        hàng</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container-transaction" data-toggle="modal" data-target="#detail-transaction">
-                        <div className="date-content">
-                            <div className="date-left">12</div>
-                            <div className="date-right">
-                                <p className="day-bold">Thứ 6</p>
-                                <p>Tháng 2/2021</p>
-                            </div>
-                        </div>
-                        <div className="transaction-main">
-                            <div className="credit-name resize">
-                                <span className="detail-record resize"> Tới: NGUYEN TIEN DOAN
-                                </span>
-                                <span className="money-transfer resize">- 100,000 VND</span>
-                            </div>
-                            <div className="transaction-type">
-                                <div className="item-detail"><span><i className="image-type internal" /></span><span className="text-type">Chuyển tiền trong ngân hàng</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {transactionElms}
                 </div>
                 <div className="search-by-key hide">
                 </div>

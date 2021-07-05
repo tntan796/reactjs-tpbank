@@ -407,6 +407,33 @@ export const Devices = [
     }
 ]
 
+export const Transactions = [
+    {
+        day: '24',
+        dayOfWeek: 'Thứ 4',
+        month: 'Tháng 2/2021',
+        detailRecord: 'NGUYEN THI THU HANG',
+        moneyTransfer: '500,000',
+        type: 'Chuyển tiền liên ngân hàng'
+    },
+    {
+        day: '12',
+        dayOfWeek: 'Thứ 6',
+        month: 'Tháng 2/2021',
+        detailRecord: 'NGUYEN TIEN DOAN',
+        moneyTransfer: '100,000',
+        type: 'Chuyển tiền trong ngân hàng'
+    },
+    {
+        day: '12',
+        dayOfWeek: 'Thứ 6',
+        month: 'Tháng 2/2021',
+        detailRecord: 'NGUYEN TIEN DOAN',
+        moneyTransfer: '100,000',
+        type: 'Chuyển tiền trong ngân hàng'
+    }
+]
+
 export const Faqs = [
     {
         question: '1. Dịch vụ TPBank eBank có những tính năng gì?',
