@@ -1,3 +1,5 @@
+import './index.css';
+
 function SettingReferringPage() {
     return (
         <div className="content-wrap">
