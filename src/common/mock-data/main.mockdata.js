@@ -268,23 +268,33 @@ export const EWallets = [
 
 export const TransferInfos = [
     {
-        label: 'Trong TPBank',
-        depositLimitPerDay: '50,000,000',
-        depositLimitPerTime: '100,000,000'
+        label: 'Trong TPBank', depositLimitPerDay: '50,000,000', depositLimitPerTime: '100,000,000'
     },
     {
-        label: 'Liên ngân hàng (nhanh 24/7)',
-        depositLimitPerDay: '50,000,000',
-        depositLimitPerTime: '100,000,000'
+        label: 'Liên ngân hàng (nhanh 24/7)', depositLimitPerDay: '50,000,000', depositLimitPerTime: '100,000,000'
     },
     {
-        label: 'Liên ngân hàng (thông thường)',
-        depositLimitPerDay: '50,000,000',
-        depositLimitPerTime: '100,000,000'
+        label: 'Liên ngân hàng (thông thường)', depositLimitPerDay: '50,000,000', depositLimitPerTime: '100,000,000'
     },
     {
-        label: 'Thanh toán hóa đơn',
-        depositLimitPerDay: '50,000,000',
-        depositLimitPerTime: '100,000,000'
+        label: 'Thanh toán hóa đơn', depositLimitPerDay: '50,000,000', depositLimitPerTime: '100,000,000'
+    }
+]
+
+export const Applications = [
+    {
+        icon: '/assets/images/icons/inquiry/app_ebank_tpbank.svg',
+        altIcon: 'app_ebank_tpbank',
+        appName: 'eBank TPBank'
+    },
+    {
+        icon: '/assets/images/icons/inquiry/app_used_savy.svg',
+        altIcon: 'app_ebank_tpbank',
+        appName: 'Savy'
+    },
+    {
+        icon: '/assets/images/icons/inquiry/app_used_quickpay.svg',
+        altIcon: 'app_used_quickpay',
+        appName: 'QuickPay'
     }
 ]
