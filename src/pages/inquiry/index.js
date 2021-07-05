@@ -18,7 +18,7 @@ function InquiryPage() {
                     <Link className="nav-tab-button" routerlinkactive="active" tabIndex={0} to={`${match.url}/inquiry-saving`}>Tiết kiệm </Link>
                     <Link className="nav-tab-button" routerlinkactive="active" tabIndex={0} to={`${match.url}/inquiry-credit-card`}>Thẻ tín dụng</Link>
                     <Link className="nav-tab-button" routerlinkactive="active" tabIndex={0} to={`${match.url}/inquiry-loan`}>Khoản vay </Link>
-                    <Link className="nav-tab-button" routerlinkactive="active" tabIndex={0} to={`${match.url}/inquiry-transfern`}>Lệnh chuyển tiền</Link>
+                    <Link className="nav-tab-button" routerlinkactive="active" tabIndex={0} to={`${match.url}/inquiry-transfer`}>Lệnh chuyển tiền</Link>
                 </div>
                 <Switch>
                     <Route path={`${match.path}/inquiry-account`}> <InquiryAccount /> </Route>
