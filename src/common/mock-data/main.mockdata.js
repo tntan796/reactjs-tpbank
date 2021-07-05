@@ -198,3 +198,30 @@ export const InquirySavings = [
         settlement : '08/08/2021'
     }
 ]
+
+export const CardLinkItems = [
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_personal_info.svg', altIcon: 'ic_personal_info',
+        link: 'inquiry-general/person-info', title: 'Thông tin cá nhân'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_periodic.svg', altIcon: 'ic_periodic',
+        link: 'inquiry-general/periodic', title: 'Danh sách hóa đơn/lệnh chuyển tiền'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_financial_overview.svg', altIcon: 'ic_financial_overview',
+        link: 'inquiry-general/financial-overview', title: 'Tổng quan tài chính'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_wallet.svg', altIcon: 'ic_wallet',
+        link: 'inquiry-general/ewallet', title: 'Ví điện tử liên kết'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_limit.svg', altIcon: 'ic_limit',
+        link: 'inquiry-general/limit', title: 'Thông tin hạn mức'
+    },
+    {
+        icon : 'https://ebank.tpb.vn/retail/vX/assets/icons/inquiry/ic_app_used.svg', altIcon: 'ic_app_used',
+        link: 'inquiry-general/app', title: 'Ứng dụng của TPBank'
+    }
+]
