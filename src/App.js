@@ -32,6 +32,7 @@ import SettingPage from "./pages/setting/index";
 import NotificationPage from "./pages/notification/index";
 import MainPage from './pages/main/index';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Fragment } from 'react';
 
 // function generateRouter() {
 //   const routes = [
@@ -50,7 +51,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Fragment>
       <div className="main-container" onDragStart={() => false} onDrop={() => false}>
         <MenuComponent/>
         <div className="right">
@@ -98,7 +99,7 @@ function App() {
         </div>
       </div>
       <LoadingCompnent/>
-    </Router>
+    </Fragment>
   );
 }
 
