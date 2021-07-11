@@ -4,6 +4,7 @@ import 'primeicons/primeicons.css';
 import './Admin.css';
 
 import { Button } from 'primereact/button';
+import MenuComponent from './components/menu';
 function Admin() {
     return (
         <div className="layout-wrapper"> 
@@ -60,7 +61,7 @@ function Admin() {
                 </div>
             </div>
             <div className="menu-wrapper">
-                
+                <MenuComponent></MenuComponent>
             </div>
             <div className="layout-main"></div>
         </div>
