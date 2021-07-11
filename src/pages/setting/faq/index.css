@@ -22,6 +22,10 @@
     max-height: 0;
     overflow: hidden;
 }
+
+.answer li {
+    max-height: unset !important;
+}
 ::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;

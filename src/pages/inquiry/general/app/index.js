@@ -1,21 +1,19 @@
 import './index.css';
-
+import ApplicationItemComponent from '../../../../components/application-item/index';
+import { Applications } from '../../../../common/mock-data/main.mockdata';
 function GeneralAppPage() {
+    const applicationElms = Applications.map((app, index) => (
+        <ApplicationItemComponent
+            key = {index}
+            icon = {app.icon}
+            altIcon = {app.altIcon}
+            appName = {app.appName}
+        />
+    ))
     return (
         <div className="content-wrap">
             <div className="application">
-                <div className="application-item">
-                    <img alt="" src="/assets/images/icons/inquiry/app_ebank_tpbank.svg" />
-                    <span className="app-name"> eBank TPBank </span>
-                </div>
-                <div className="application-item">
-                    <img alt="" src="/assets/images/icons/inquiry/app_used_savy.svg" />
-                    <span className="app-name"> Savy </span>
-                </div>
-                <div className="application-item">
-                    <img alt="" src="/assets/images/icons/inquiry/app_used_quickpay.svg" />
-                    <span className="app-name"> QuickPay </span>
-                </div>
+                {applicationElms}
             </div>
         </div>
     );
