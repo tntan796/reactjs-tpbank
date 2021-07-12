@@ -1,31 +1,30 @@
 import { Link } from 'react-router-dom';
 import './index.css';
-
 function LoginPage() {
     return (
         <div className="login-page">
             <div className="container">
                 <div className="top">
                     <div className="left">
-                        <a href="https://tpb.vn" target="_blank">
-                            <img className="login-logo" src="/assets/images/login/logo.svg" />
+                        <a href="https://tpb.vn" target="_blank" rel="noreferrer">
+                            <img className="login-logo" src="/assets/images/login/logo.svg" alt="logo"/>
                         </a>
                     </div>
                     <div className="right">
-                        <a href="#">
-                            <img src="/assets/images/login/ic_support.svg" />
+                        <a href="!#">
+                            <img src="/assets/images/login/ic_support.svg" alt="ic_support"/>
                             <div>23423423</div>
                         </a>
-                        <a href="#" target="_blank" className="ml-5">
-                            <img src="/assets/images/login/ic_search_location.svg" />
+                        <a href="!#" target="_blank" rel="noreferrer" className="ml-5">
+                            <img src="/assets/images/login/ic_search_location.svg" alt="ic_search_location"/>
                             <div>Tìm điểm giao dịch</div>
                         </a>
-                        <a href="https://tpb.vn/cong-cu-tinh-toan/ty-gia-ngoai-te" target="_blank" className="ml-5">
-                            <img src="/assets/images/login/ic_scale.svg" />
+                        <a href="https://tpb.vn/cong-cu-tinh-toan/ty-gia-ngoai-te" target="_blank" rel="noreferrer" className="ml-5">
+                            <img src="/assets/images/login/ic_scale.svg" alt="ic_search_location"/>
                             <div>Tra cứu tỷ giá</div>
                         </a>
                         <a href="./login-en.html" className="ml-5">
-                            <img className="lang-icon" src="/assets/images/login/flag-en.png" />
+                            <img className="lang-icon" src="/assets/images/login/flag-en.png" alt="ic_search_location"/>
                         </a>
                     </div>
                 </div>
@@ -39,8 +38,8 @@ function LoginPage() {
                     </div>
                     <div className="mt-3 password-container">
                         <input className="form-control input-password ng-untouched ng-pristine ng-valid" maxLength={32} spellCheck="false" type="password" placeholder="Mật khẩu" />
-                        <img src="/assets/images/login/ic_eye.svg" className="show-password" />
-                        <img src="/assets/images/login/ic_un-eye.svg" /></div>
+                        <img src="/assets/images/login/ic_eye.svg" className="show-password" alt="ic_eye"/>
+                        <img src="/assets/images/login/ic_un-eye.svg" alt="ic_un-eye"/></div>
                     <div className="mt-3 text-center">
                         <Link className="forget-password" to="/forgot-password">Quên mật khẩu?</Link>
                     </div>
@@ -58,13 +57,13 @@ function LoginPage() {
                         © 2019 Ngân hàng TMCP Tiên Phong (TPBank) | www.tpb.vn
                     </div>
                     <div className="right">
-                        <a href="#">Câu hỏi thường gặp</a>
-                        <a className="ml-4" href="#">Điều khoản sử dụng</a>
-                        <a className="ml-4" href="#">
-                            <img src="/assets/images/login/download-ios-dark.svg" alt="" />
+                        <a href="!#">Câu hỏi thường gặp</a>
+                        <a className="ml-4" href="!#">Điều khoản sử dụng</a>
+                        <a className="ml-4" href="!#">
+                            <img src="/assets/images/login/download-ios-dark.svg" alt="download-ios-dark" />
                         </a>
-                        <a className="ml-4" href="#">
-                            <img src="/assets/images/login/download-android-dark.svg" alt="" />
+                        <a className="ml-4" href="!#">
+                            <img src="/assets/images/login/download-android-dark.svg" alt="download-android-dark" />
                         </a>
                     </div>
                 </div>

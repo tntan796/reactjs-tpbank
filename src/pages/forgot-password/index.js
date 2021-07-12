@@ -11,8 +11,8 @@ function ForgotPasswordPage() {
                     <div className="logo-header">
                         <div className="header-non-login">
                             <div className="bg-header">
-                                <a href="https://tpb.vn" target="_blank">
-                                    <img src="/assets/images/forgot-password/logo.svg" />
+                                <a href="https://tpb.vn" target="_blank" rel="noreferrer">
+                                    <img src="/assets/images/forgot-password/logo.svg" alt="logo"/>
                                 </a>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function ForgotPasswordPage() {
                         <div className="breadscrumb-wrapper">
                             <div className="breadscrumb">
                                 <Link className="back-btn" to="/login">
-                                    <img src="/assets/images/forgot-password/back.png" />
+                                    <img src="/assets/images/forgot-password/back.png" alt="back"/>
                                     Trở về trang trước
                                 </Link>
                             </div>
@@ -72,54 +72,54 @@ function ForgotPasswordPage() {
                         <div className="phone-col">
                             <div className="call-center-text">Tổng đài hỗ trợ</div>
                             <div className="phone-1">
-                                <a href="#">23423423</a>
+                                <a href="!#">23423423</a>
                                 <span className="c247">24/7</span>
                             </div>
                             <div>
-                                <a href="#">(024) 37 683683</a>
+                                <a href="!#">(024) 37 683683</a>
                             </div>
                         </div>
                         <div className="footer-column-2">
                             <div>
-                                <a href="#">Câu hỏi thường gặp</a>
+                                <a href="!#">Câu hỏi thường gặp</a>
                             </div>
                             <div className="mt-1">
-                                <a href="#" target="_blank">Điều khoản sử dụng</a>
+                                <a href="!#" target="_blank" rel="noreferrer">Điều khoản sử dụng</a>
                             </div>
                             <div className="mt-1">
-                                <a href="#" target="_blank">Bảo mật thông tin
+                                <a href="!#" target="_blank" rel="noreferrer">Bảo mật thông tin
                                     khách hàng</a>
                             </div>
                         </div>
                         <div className="footer-column-3">
                             <div>
-                                <a href="#" target="_blank">Tìm điểm giao dịch</a>
+                                <a href="!#" target="_blank" rel="noreferrer">Tìm điểm giao dịch</a>
                             </div>
                             <div className="mt-1">
-                                <a href="#" target="_blank">Tìm kiếm vị trí
+                                <a href="!#" target="_blank" rel="noreferrer">Tìm kiếm vị trí
                                     livebank</a>
                             </div>
                         </div>
                         <div className="app-store-col">
                             <div className="download-desc">Tải và cài đặt ứng dụng TPBank eBank lên thiết bị di động</div>
-                            <a href="#" target="_blank">
-                                <img src="/assets/images/forgot-password/download-ios.svg" />
+                            <a href="!#" target="_blank" rel="noreferrer">
+                                <img src="/assets/images/forgot-password/download-ios.svg" alt="download-ios"/>
                             </a>
-                            <a className="ml-4" href="#" target="_blank">
-                                <img src="/assets/images/forgot-password/download-android.svg" />
+                            <a className="ml-4" href="!#" target="_blank">
+                                <img src="/assets/images/forgot-password/download-android.svg" alt="download-android"/>
                             </a>
                         </div>
                     </div>
                     <div className="footer-2">
                         <div className="copyright-text"> © 2019 Ngân hàng TMCP Tiên Phong (TPBank) | www.tpb.vn </div>
                         <div className="social text-right">
-                            <a href="#" target="_blank">
+                            <a href="!#" target="_blank" rel="noreferrer">
                                 <i className="fab fa-facebook-square" />
                             </a>
-                            <a className="ml-3" href="#" target="_blank">
+                            <a className="ml-3" href="!#" target="_blank" rel="noreferrer">
                                 <i className="fab fa-youtube" />
                             </a>
-                            <a className="ml-3" href="#" target="_blank">
+                            <a className="ml-3" href="!#" target="_blank" rel="noreferrer">
                                 <i className="fab fa-linkedin" />
                             </a>
                         </div>

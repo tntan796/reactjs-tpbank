@@ -31,7 +31,7 @@ import InquiryPage from "./pages/inquiry/index";
 import SettingPage from "./pages/setting/index";
 import NotificationPage from "./pages/notification/index";
 import MainPage from './pages/main/index';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { Fragment } from 'react';
 
 // function generateRouter() {

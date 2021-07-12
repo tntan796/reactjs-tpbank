@@ -1,6 +1,6 @@
 
 /*Inquiry General*/
-input[type=text] {
+.inquiry input[type=text] {
     border: 1px solid #e2d8ee;
     height: 54px;
     background-image: url(https://ebank.tpb.vn/retail/vX/search_normal.3841bb54b2df9a8bde6c.svg);
@@ -65,7 +65,7 @@ input[type=text] {
   
   @media screen and (max-width: 575px) {
      /*Inquiry genreal*/
-      input[type=text] {
+     .inquiry input[type=text] {
           width: 100%;
       }
       .content-card-link-item {

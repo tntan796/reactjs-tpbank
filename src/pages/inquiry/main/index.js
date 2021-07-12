@@ -1,6 +1,3 @@
-import { Link } from 'react-router-dom';
-import './index.css';
-
 import './index.css';
 import { Inquiries} from '../../../common/mock-data/main.mockdata';
 import CartItemComponent from '../../../components/card-item/index';

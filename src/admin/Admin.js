@@ -2,10 +2,13 @@ import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import './Admin.css';
-
-import { Button } from 'primereact/button';
 import MenuComponent from './components/menu';
+import { Switch, Route, useRouteMatch } from "react-router-dom";
+import MenuItemTypeListPage from './pages/menu-item-type/menu-item-type-list';
+
 function Admin() {
+    let match = useRouteMatch();
+
     return (
         <div className="layout-wrapper"> 
          {/* layout-topbar-mobile-active */}
@@ -63,7 +66,15 @@ function Admin() {
             <div className="menu-wrapper">
                 <MenuComponent></MenuComponent>
             </div>
-            <div className="layout-main"></div>
+            <div className="layout-main">
+            <Switch>
+            
+                  <Route path={`${match.path}/menu-item-type`}> <MenuItemTypeListPage/> </Route>
+                  {/* <Route path="/setting"> <SettingPage/> </Route>
+                  <Route path="/main"> <MainPage/> </Route>
+                  <Route> <NotFoundPage/> </Route> */}
+                </Switch>
+            </div>
         </div>
     );
 }

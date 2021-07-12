@@ -2,7 +2,7 @@ import './index.css';
 import { Link } from "react-router-dom";
 function BillRecurringPage() {
     return (
-        <div className="content-wrap">
+        <div className="content-wrap bill-recurring">
             <div className="tab-main">
             <div className="nav-tab">
                 <Link to="bill" className="nav-tab-button" tabIndex={0}>Thanh toán hoá đơn </Link>

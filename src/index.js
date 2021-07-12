@@ -7,12 +7,12 @@ import Admin from './admin/Admin';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoginPage from './pages/login/index';
 import ForgotPasswordPage from './pages/forgot-password/index';
-
+import 'primeflex/primeflex.css';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
     <Switch>
-          <Route path="/admin" exact> <Admin /> </Route>
+          <Route path="/admin"> <Admin /> </Route>
           <Route path="/login" exact> <LoginPage /> </Route>
           <Route path="/forgot-password" exact> <ForgotPasswordPage /> </Route>
           <Route> <App /> </Route>
